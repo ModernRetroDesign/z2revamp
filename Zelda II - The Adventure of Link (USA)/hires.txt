@@ -19,6 +19,7 @@
 <img>Link\walking.png
 <img>Link\jumping.png
 <img>Link\Swords&Shield1_dark.png
+<img>NPC\enemy_Deeler.png
 
 <options>disableSpriteLimit,
 <options>disableOriginalTiles
@@ -9365,6 +9366,28 @@
 [!hmirror]<tile>6,2B5,FF0F1630,16,24,1,N
 [hmirror]<tile>6,2B4,FF0F1630,24,16,1,N
 [hmirror]<tile>6,2B5,FF0F1630,24,24,1,N
+
+#Deeler
+[!hmirror&!vmirror]<tile>18,2BA,FF071630,0,0,1,N
+[!hmirror&!vmirror]<tile>18,2BB,FF071630,0,8,1,N
+[!hmirror&!vmirror]<tile>18,2BC,FF071630,8,0,1,N
+[!hmirror&!vmirror]<tile>18,2BD,FF071630,8,8,1,N
+[hmirror&!vmirror]<tile>18,2BA,FF071630,16,0,1,N
+[hmirror&!vmirror]<tile>18,2BB,FF071630,16,8,1,N
+[hmirror&!vmirror]<tile>18,2BC,FF071630,24,0,1,N
+[hmirror&!vmirror]<tile>18,2BD,FF071630,24,8,1,N
+[!hmirror&vmirror]<tile>18,2BA,FF071630,32,0,1,N
+[!hmirror&vmirror]<tile>18,2BB,FF071630,32,8,1,N
+[!hmirror&vmirror]<tile>18,2BC,FF071630,40,0,1,N
+[!hmirror&vmirror]<tile>18,2BD,FF071630,40,8,1,N
+[hmirror&vmirror]<tile>18,2BA,FF071630,48,0,1,N
+[hmirror&vmirror]<tile>18,2BB,FF071630,48,8,1,N
+[hmirror&vmirror]<tile>18,2BC,FF071630,56,0,1,N
+[hmirror&vmirror]<tile>18,2BD,FF071630,56,8,1,N
+#Silk
+<tile>18,2BE,FF162730,64,0,1,N
+<tile>18,2BF,FF162730,64,8,1,N
+
 
 
 
