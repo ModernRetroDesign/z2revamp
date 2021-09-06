@@ -16,6 +16,3 @@ NPC portraits
 Finish level up system (icons, layout, etc)
 
 Finish character name creation and file select
-
-Music currently isn't uploaded due to copywrite, the lua script works but needs refinment
-
