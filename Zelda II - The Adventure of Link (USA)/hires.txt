@@ -1348,7 +1348,7 @@
 [HUD&GamePaused&!DialogBox&!LevelUpWindow&MagicPower7]<background>Inventory\SpellMenu-7Mag.png,1,0,0,30
 [HUD&GamePaused&!DialogBox&!LevelUpWindow&MagicPower8]<background>Inventory\SpellMenu-8Mag.png,1,0,0,30
 
-[HUD&GamePaused&!DialogBox&SpellShield]<background>Inventory\Pointer01.png,1,0,0,37
+[HUD&GamePaused&!DialogBox&SpellShield&!LevelUpWindow]<background>Inventory\Pointer01.png,1,0,0,37
 [HUD&GamePaused&!DialogBox&SpellJump]<background>Inventory\Pointer02.png,1,0,0,37
 [HUD&GamePaused&!DialogBox&SpellHeal]<background>Inventory\Pointer03.png,1,0,0,37
 [HUD&GamePaused&!DialogBox&SpellFairy]<background>Inventory\Pointer04.png,1,0,0,37
@@ -15017,6 +15017,29 @@
 [!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,23C,FF18362A,144,16,1,N
 [!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,23D,FF18362A,144,24,1,N
 
+#Crouch
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,246,FF18362A,168,0,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,247,FF18362A,168,8,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,248,FF18362A,176,0,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,249,FF18362A,176,8,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,24A,FF18362A,168,16,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,24B,FF18362A,168,24,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,24C,FF18362A,176,16,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,24D,FF18362A,176,24,1,N
+
+#CrouchAttack
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,254,FF18362A,184,16,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,255,FF18362A,184,24,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,256,FF18362A,192,0,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,257,FF18362A,192,8,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,258,FF18362A,200,0,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,259,FF18362A,200,8,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,25A,FF18362A,192,16,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,25B,FF18362A,192,24,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,25C,FF18362A,200,16,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,25D,FF18362A,200,24,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,25E,FF18362A,208,16,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,25F,FF18362A,208,24,1,N
 
 
 #FacingRight
@@ -15057,30 +15080,54 @@
 
 
 #Attack
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,228,FF18362A,96,0,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,229,FF18362A,96,8,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,22A,FF18362A,104,0,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,22B,FF18362A,104,8,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,230,FF18362A,112,0,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,231,FF18362A,112,8,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,22C,FF18362A,96,16,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,22D,FF18362A,96,24,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,22E,FF18362A,104,16,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,22F,FF18362A,104,24,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,228,FF18362A,96,32,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,229,FF18362A,96,40,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,22A,FF18362A,104,32,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,22B,FF18362A,104,40,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,230,FF18362A,112,32,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,231,FF18362A,112,40,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,22C,FF18362A,96,48,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,22D,FF18362A,96,56,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,22E,FF18362A,104,48,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,22F,FF18362A,104,56,1,N
 
 
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,232,FF18362A,120,0,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,233,FF18362A,120,8,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,234,FF18362A,128,0,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,235,FF18362A,128,8,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,236,FF18362A,136,0,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,237,FF18362A,136,8,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,238,FF18362A,144,0,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,239,FF18362A,144,8,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,23A,FF18362A,136,16,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,23B,FF18362A,136,24,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,23C,FF18362A,144,16,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,23D,FF18362A,144,24,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,232,FF18362A,120,32,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,233,FF18362A,120,40,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,234,FF18362A,128,32,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,235,FF18362A,128,40,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,236,FF18362A,136,32,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,237,FF18362A,136,40,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,238,FF18362A,144,32,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,239,FF18362A,144,40,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,23A,FF18362A,136,48,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,23B,FF18362A,136,56,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,23C,FF18362A,144,48,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,23D,FF18362A,144,56,1,N
+
+#Crouch
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,246,FF18362A,168,32,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,247,FF18362A,168,40,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,248,FF18362A,176,32,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,249,FF18362A,176,40,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,24A,FF18362A,168,48,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,24B,FF18362A,168,56,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,24C,FF18362A,176,48,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,24D,FF18362A,176,56,1,N
+
+#CrouchAttack
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,254,FF18362A,184,48,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,255,FF18362A,184,56,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,256,FF18362A,192,32,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,257,FF18362A,192,40,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,258,FF18362A,200,32,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,259,FF18362A,200,40,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,25A,FF18362A,192,48,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,25B,FF18362A,192,56,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,25C,FF18362A,200,48,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,25D,FF18362A,200,56,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,25E,FF18362A,208,48,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,25F,FF18362A,208,56,1,N
 
 #}
 
