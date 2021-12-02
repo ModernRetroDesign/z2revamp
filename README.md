@@ -4,6 +4,8 @@ Coding: Giric
 
 Art: HaddianKey
 
+Additional work by: Evan.F, Aclectico, & Max Deacon VR
+
 
 # To-Do (in no particular order)
 

@@ -20,6 +20,7 @@
 <img>Link\jumping.png
 <img>Link\Swords&Shield1_dark.png
 <img>NPC\enemy_Deeler.png
+<img>Link\hurt.png
 
 <options>disableSpriteLimit,
 <options>disableOriginalTiles
@@ -9500,12 +9501,40 @@
 [WestHyrule&Map07&HUD&HaveCandle&PlayerPage1]<background>02-07.png,1,1,1,20,0,0
 [WestHyrule&Map07&HUD&HaveCandle&PlayerPage0]<background>02-07.png,1,1,1,20,0,0
 [WestHyrule&Map07&HUD&HaveCandle&PlayerPageFF]<background>02-07.png,1,1,1,20,0,0
+
+#CaveToParapa  0.6 parallax = 306 offset
+[WestHyrule&Map07&HUD&!HaveCandle&PlayerPage3]<background>02-07_dark-background.png,1,0.6,1,10,306,0
+[WestHyrule&Map07&HUD&!HaveCandle&PlayerPage2&Page2Fix]<background>02-07_dark-background.png,1,0.6,1,10,0,0
+[WestHyrule&Map07&HUD&!HaveCandle&PlayerPage2]<background>02-07_dark-background.png,1,0.6,1,10,306,0
+[WestHyrule&Map07&HUD&!HaveCandle&PlayerPage1]<background>02-07_dark-background.png,1,0.6,1,10,0,0
+[WestHyrule&Map07&HUD&!HaveCandle&PlayerPage0]<background>02-07_dark-background.png,1,0.6,1,10,0,0
+[WestHyrule&Map07&HUD&!HaveCandle&PlayerPageFF]<background>02-07_dark-background.png,1,0.6,1,10,0,0
 [WestHyrule&Map07&HUD&!HaveCandle&PlayerPage3]<background>02-07_dark.png,1,1,1,20,512,0
 [WestHyrule&Map07&HUD&!HaveCandle&PlayerPage2&Page2Fix]<background>02-07_dark.png,1,1,1,20,0,0
 [WestHyrule&Map07&HUD&!HaveCandle&PlayerPage2]<background>02-07_dark.png,1,1,1,20,512,0
 [WestHyrule&Map07&HUD&!HaveCandle&PlayerPage1]<background>02-07_dark.png,1,1,1,20,0,0
 [WestHyrule&Map07&HUD&!HaveCandle&PlayerPage0]<background>02-07_dark.png,1,1,1,20,0,0
 [WestHyrule&Map07&HUD&!HaveCandle&PlayerPageFF]<background>02-07_dark.png,1,1,1,20,0,0
+[WestHyrule&Map07&HUD&!HaveCandle&PlayerPage3]<background>02-07_dark-objects.png,1,1,1,21,512,0
+[WestHyrule&Map07&HUD&!HaveCandle&PlayerPage2&Page2Fix]<background>02-07_dark-objects.png,1,1,1,21,0,0
+[WestHyrule&Map07&HUD&!HaveCandle&PlayerPage2]<background>02-07_dark-objects.png,1,1,1,21,512,0
+[WestHyrule&Map07&HUD&!HaveCandle&PlayerPage1]<background>02-07_dark-objects.png,1,1,1,21,0,0
+[WestHyrule&Map07&HUD&!HaveCandle&PlayerPage0]<background>02-07_dark-objects.png,1,1,1,21,0,0
+[WestHyrule&Map07&HUD&!HaveCandle&PlayerPageFF]<background>02-07_dark-objects.png,1,1,1,21,0,0
+[WestHyrule&Map07&HUD&!HaveCandle&PlayerPage3&!FullRed&!FullBlue&!FullGreen]<background>02-07_dark-foreground.png,1,1,1,30,512,0
+[WestHyrule&Map07&HUD&!HaveCandle&PlayerPage2&Page2Fix&!6FFix&!FullRed&!FullBlue&!FullGreen]<background>02-07_dark-foreground.png,1,1,1,30,0,0
+[WestHyrule&Map07&HUD&!HaveCandle&PlayerPage2&!FullRed&!FullBlue&!FullGreen]<background>02-07_dark-foreground.png,1,1,1,30,512,0
+[WestHyrule&Map07&HUD&!HaveCandle&PlayerPage1&!FullRed&!FullBlue&!FullGreen]<background>02-07_dark-foreground.png,1,1,1,30,0,0
+[WestHyrule&Map07&HUD&!HaveCandle&PlayerPage0&!FullRed&!FullBlue&!FullGreen]<background>02-07_dark-foreground.png,1,1,1,30,0,0
+[WestHyrule&Map07&HUD&!HaveCandle&PlayerPageFF&!FullRed&!FullBlue&!FullGreen]<background>02-07_dark-foreground.png,1,1,1,30,0,0
+
+[WestHyrule&Map07&HUD&!HaveCandle&PlayerPage2&Page2Fix&6FFix]<background>02-07_dark-6Ffix.png,1,0,0,29,0,0
+[WestHyrule&Map07&HUD&!HaveCandle&PlayerPage2&70Fix]<background>02-07_dark-70fix.png,1,0,0,29,0,0
+# ^still glitches sometimes
+
+
+
+
 
 [WestHyrule&Map08&HUD&TileCheck0008]<background>02-08.png,1,1,1,20
 [WestHyrule&Map09&HUD&TileCheck0009]<background>02-09.png,1,1,1,20
@@ -14972,7 +15001,7 @@
 [!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,227,FF18362A,48,24,1,N
 
 
-#JumpUp
+#JumpUp (Needs animation frames)
 [!hmirror&AttackPower1&LifePower1&PlayerInAir&15fpsAnimFrame14]<tile>16,246,FF18362A,0,0,1,N
 [!hmirror&AttackPower1&LifePower1&PlayerInAir&15fpsAnimFrame14]<tile>16,247,FF18362A,0,8,1,N
 [!hmirror&AttackPower1&LifePower1&PlayerInAir&15fpsAnimFrame14]<tile>16,248,FF18362A,8,0,1,N
@@ -14982,7 +15011,7 @@
 [!hmirror&AttackPower1&LifePower1&PlayerInAir&15fpsAnimFrame14]<tile>16,24C,FF18362A,8,16,1,N
 [!hmirror&AttackPower1&LifePower1&PlayerInAir&15fpsAnimFrame14]<tile>16,24D,FF18362A,8,24,1,N
 
-#JumpDown
+#JumpDown (Needs animation frames)
 [!hmirror&AttackPower1&LifePower1&PlayerInAir&15fpsAnimFrame14]<tile>16,200,FF18362A,80,0,1,N
 [!hmirror&AttackPower1&LifePower1&PlayerInAir&15fpsAnimFrame14]<tile>16,201,FF18362A,80,8,1,N
 [!hmirror&AttackPower1&LifePower1&PlayerInAir&15fpsAnimFrame14]<tile>16,202,FF18362A,88,0,1,N
@@ -15017,6 +15046,32 @@
 [!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,23C,FF18362A,144,16,1,N
 [!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,23D,FF18362A,144,24,1,N
 
+#Mid-AirAttack (change to something new?)
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,228,FF18362A,96,0,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,229,FF18362A,96,8,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,22A,FF18362A,104,0,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,22B,FF18362A,104,8,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,230,FF18362A,112,0,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,231,FF18362A,112,8,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,22C,FF18362A,96,16,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,22D,FF18362A,96,24,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,22E,FF18362A,104,16,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,22F,FF18362A,104,24,1,N
+
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,232,FF18362A,120,0,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,233,FF18362A,120,8,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,234,FF18362A,128,0,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,235,FF18362A,128,8,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,236,FF18362A,136,0,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,237,FF18362A,136,8,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,238,FF18362A,144,0,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,239,FF18362A,144,8,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,23A,FF18362A,136,16,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,23B,FF18362A,136,24,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,23C,FF18362A,144,16,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,23D,FF18362A,144,24,1,N
+
+
 #Crouch
 [!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,246,FF18362A,168,0,1,N
 [!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,247,FF18362A,168,8,1,N
@@ -15041,6 +15096,42 @@
 [!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,25E,FF18362A,208,16,1,N
 [!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,25F,FF18362A,208,24,1,N
 
+#Hurt
+[!hmirror&AttackPower1&LifePower1]<tile>19,214,FF0F2C30,0,0,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,215,FF0F2C30,0,8,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,216,FF0F2C30,8,0,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,217,FF0F2C30,8,8,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,218,FF0F2C30,0,16,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,219,FF0F2C30,0,24,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,21A,FF0F2C30,8,16,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,21B,FF0F2C30,8,24,1,N
+
+[!hmirror&AttackPower1&LifePower1]<tile>19,214,FF0F1630,16,0,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,215,FF0F1630,16,8,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,216,FF0F1630,24,0,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,217,FF0F1630,24,8,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,218,FF0F1630,16,16,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,219,FF0F1630,16,24,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,21A,FF0F1630,24,16,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,21B,FF0F1630,24,24,1,N
+
+[!hmirror&AttackPower1&LifePower1]<tile>19,214,FF162730,32,0,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,215,FF162730,32,8,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,216,FF162730,40,0,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,217,FF162730,40,8,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,218,FF162730,32,16,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,219,FF162730,32,24,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,21A,FF162730,40,16,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,21B,FF162730,40,24,1,N
+
+[!hmirror&AttackPower1&LifePower1]<tile>19,214,FF18362A,48,0,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,215,FF18362A,48,8,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,216,FF18362A,56,0,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,217,FF18362A,56,8,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,218,FF18362A,48,16,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,219,FF18362A,48,24,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,21A,FF18362A,56,16,1,N
+[!hmirror&AttackPower1&LifePower1]<tile>19,21B,FF18362A,56,24,1,N
 
 #FacingRight
 #WestHyruleEncounters
@@ -15078,6 +15169,25 @@
 [hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,226,FF18362A,48,48,1,N
 [hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,227,FF18362A,48,56,1,N
 
+#JumpUp
+[hmirror&AttackPower1&LifePower1&PlayerInAir&15fpsAnimFrame14]<tile>16,246,FF18362A,0,32,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir&15fpsAnimFrame14]<tile>16,247,FF18362A,0,40,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir&15fpsAnimFrame14]<tile>16,248,FF18362A,8,32,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir&15fpsAnimFrame14]<tile>16,249,FF18362A,8,40,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir&15fpsAnimFrame14]<tile>16,24A,FF18362A,0,48,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir&15fpsAnimFrame14]<tile>16,24B,FF18362A,0,56,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir&15fpsAnimFrame14]<tile>16,24C,FF18362A,8,48,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir&15fpsAnimFrame14]<tile>16,24D,FF18362A,8,56,1,N
+
+#JumpDown
+[hmirror&AttackPower1&LifePower1&PlayerInAir&15fpsAnimFrame14]<tile>16,200,FF18362A,80,32,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir&15fpsAnimFrame14]<tile>16,201,FF18362A,80,40,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir&15fpsAnimFrame14]<tile>16,202,FF18362A,88,32,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir&15fpsAnimFrame14]<tile>16,203,FF18362A,88,40,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir&15fpsAnimFrame14]<tile>16,210,FF18362A,80,48,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir&15fpsAnimFrame14]<tile>16,211,FF18362A,80,56,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir&15fpsAnimFrame14]<tile>16,212,FF18362A,88,48,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir&15fpsAnimFrame14]<tile>16,213,FF18362A,88,56,1,N
 
 #Attack
 [hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,228,FF18362A,96,32,1,N
@@ -15091,7 +15201,6 @@
 [hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,22E,FF18362A,104,48,1,N
 [hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,22F,FF18362A,104,56,1,N
 
-
 [hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,232,FF18362A,120,32,1,N
 [hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,233,FF18362A,120,40,1,N
 [hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,234,FF18362A,128,32,1,N
@@ -15104,6 +15213,31 @@
 [hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,23B,FF18362A,136,56,1,N
 [hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,23C,FF18362A,144,48,1,N
 [hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,23D,FF18362A,144,56,1,N
+
+#Mid-AirAttack (change to something new?)
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,228,FF18362A,96,32,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,229,FF18362A,96,40,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,22A,FF18362A,104,32,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,22B,FF18362A,104,40,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,230,FF18362A,112,32,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,231,FF18362A,112,40,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,22C,FF18362A,96,48,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,22D,FF18362A,96,56,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,22E,FF18362A,104,48,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,22F,FF18362A,104,56,1,N
+
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,232,FF18362A,120,32,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,233,FF18362A,120,40,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,234,FF18362A,128,32,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,235,FF18362A,128,40,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,236,FF18362A,136,32,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,237,FF18362A,136,40,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,238,FF18362A,144,32,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,239,FF18362A,144,40,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,23A,FF18362A,136,48,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,23B,FF18362A,136,56,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,23C,FF18362A,144,48,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>7,23D,FF18362A,144,56,1,N
 
 #Crouch
 [hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,246,FF18362A,168,32,1,N
@@ -15129,6 +15263,43 @@
 [hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,25E,FF18362A,208,48,1,N
 [hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,25F,FF18362A,208,56,1,N
 
+
+#Hurt
+[hmirror&AttackPower1&LifePower1]<tile>19,214,FF0F2C30,0,0,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,215,FF0F2C30,0,8,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,216,FF0F2C30,8,0,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,217,FF0F2C30,8,8,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,218,FF0F2C30,0,16,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,219,FF0F2C30,0,24,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,21A,FF0F2C30,8,16,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,21B,FF0F2C30,8,24,1,N
+
+[hmirror&AttackPower1&LifePower1]<tile>19,214,FF0F1630,16,0,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,215,FF0F1630,16,8,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,216,FF0F1630,24,0,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,217,FF0F1630,24,8,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,218,FF0F1630,16,16,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,219,FF0F1630,16,24,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,21A,FF0F1630,24,16,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,21B,FF0F1630,24,24,1,N
+
+[hmirror&AttackPower1&LifePower1]<tile>19,214,FF162730,32,0,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,215,FF162730,32,8,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,216,FF162730,40,0,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,217,FF162730,40,8,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,218,FF162730,32,16,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,219,FF162730,32,24,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,21A,FF162730,40,16,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,21B,FF162730,40,24,1,N
+
+[hmirror&AttackPower1&LifePower1]<tile>19,214,FF18362A,48,0,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,215,FF18362A,48,8,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,216,FF18362A,56,0,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,217,FF18362A,56,8,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,218,FF18362A,48,16,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,219,FF18362A,48,24,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,21A,FF18362A,56,16,1,N
+[hmirror&AttackPower1&LifePower1]<tile>19,21B,FF18362A,56,24,1,N
 #}
 
 
@@ -15172,30 +15343,78 @@
 
 
 #Attack
-[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,228,FF012111,96,0,1,N
-[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,229,FF012111,96,8,1,N
-[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,22A,FF012111,104,0,1,N
-[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,22B,FF012111,104,8,1,N
-[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,230,FF012111,112,0,1,N
-[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,231,FF012111,112,8,1,N
-[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,22C,FF012111,96,16,1,N
-[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,22D,FF012111,96,24,1,N
-[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,22E,FF012111,104,16,1,N
-[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,22F,FF012111,104,24,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,228,FF012111,96,0,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,229,FF012111,96,8,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,22A,FF012111,104,0,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,22B,FF012111,104,8,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,230,FF012111,112,0,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,231,FF012111,112,8,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,22C,FF012111,96,16,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,22D,FF012111,96,24,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,22E,FF012111,104,16,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,22F,FF012111,104,24,1,N
 
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,232,FF012111,120,0,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,233,FF012111,120,8,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,234,FF012111,128,0,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,235,FF012111,128,8,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,236,FF012111,136,0,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,237,FF012111,136,8,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,238,FF012111,144,0,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,239,FF012111,144,8,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,23A,FF012111,136,16,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,23B,FF012111,136,24,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,23C,FF012111,144,16,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,23D,FF012111,144,24,1,N
 
-[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,232,FF012111,120,0,1,N
-[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,233,FF012111,120,8,1,N
-[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,234,FF012111,128,0,1,N
-[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,235,FF012111,128,8,1,N
-[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,236,FF012111,136,0,1,N
-[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,237,FF012111,136,8,1,N
-[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,238,FF012111,144,0,1,N
-[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,239,FF012111,144,8,1,N
-[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,23A,FF012111,136,16,1,N
-[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,23B,FF012111,136,24,1,N
-[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,23C,FF012111,144,16,1,N
-[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,23D,FF012111,144,24,1,N
+#Mid-AirAttack (change to something new?)
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,228,FF012111,96,0,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,229,FF012111,96,8,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,22A,FF012111,104,0,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,22B,FF012111,104,8,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,230,FF012111,112,0,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,231,FF012111,112,8,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,22C,FF012111,96,16,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,22D,FF012111,96,24,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,22E,FF012111,104,16,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,22F,FF012111,104,24,1,N
+
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,232,FF012111,120,0,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,233,FF012111,120,8,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,234,FF012111,128,0,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,235,FF012111,128,8,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,236,FF012111,136,0,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,237,FF012111,136,8,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,238,FF012111,144,0,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,239,FF012111,144,8,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,23A,FF012111,136,16,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,23B,FF012111,136,24,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,23C,FF012111,144,16,1,N
+[!hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,23D,FF012111,144,24,1,N
+
+#Crouch
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,246,FF012111,168,0,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,247,FF012111,168,8,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,248,FF012111,176,0,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,249,FF012111,176,8,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,24A,FF012111,168,16,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,24B,FF012111,168,24,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,24C,FF012111,176,16,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,24D,FF012111,176,24,1,N
+
+#CrouchAttack
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,254,FF012111,184,16,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,255,FF012111,184,24,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,256,FF012111,192,0,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,257,FF012111,192,8,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,258,FF012111,200,0,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,259,FF012111,200,8,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,25A,FF012111,192,16,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,25B,FF012111,192,24,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,25C,FF012111,200,16,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,25D,FF012111,200,24,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,25E,FF012111,208,16,1,N
+[!hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,25F,FF012111,208,24,1,N
 
 #FacingRight
 #WestHyruleEncounters
@@ -15235,30 +15454,79 @@
 
 
 #Attack
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,228,FF012111,96,0,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,229,FF012111,96,8,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,22A,FF012111,104,0,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,22B,FF012111,104,8,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,230,FF012111,112,0,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,231,FF012111,112,8,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,22C,FF012111,96,16,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,22D,FF012111,96,24,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,22E,FF012111,104,16,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,22F,FF012111,104,24,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,228,FF012111,96,0,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,229,FF012111,96,8,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,22A,FF012111,104,0,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,22B,FF012111,104,8,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,230,FF012111,112,0,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,231,FF012111,112,8,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,22C,FF012111,96,16,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,22D,FF012111,96,24,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,22E,FF012111,104,16,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,22F,FF012111,104,24,1,N
 
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,232,FF012111,120,0,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,233,FF012111,120,8,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,234,FF012111,128,0,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,235,FF012111,128,8,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,236,FF012111,136,0,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,237,FF012111,136,8,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,238,FF012111,144,0,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,239,FF012111,144,8,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,23A,FF012111,136,16,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,23B,FF012111,136,24,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,23C,FF012111,144,16,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,23D,FF012111,144,24,1,N
 
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,232,FF012111,120,0,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,233,FF012111,120,8,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,234,FF012111,128,0,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,235,FF012111,128,8,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,236,FF012111,136,0,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,237,FF012111,136,8,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,238,FF012111,144,0,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,239,FF012111,144,8,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,23A,FF012111,136,16,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,23B,FF012111,136,24,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,23C,FF012111,144,16,1,N
-[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>7,23D,FF012111,144,24,1,N
+#Mid-AirAttack (change to something new?)
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,228,FF012111,96,32,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,229,FF012111,96,40,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,22A,FF012111,104,32,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,22B,FF012111,104,40,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,230,FF012111,112,32,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,231,FF012111,112,40,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,22C,FF012111,96,48,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,22D,FF012111,96,56,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,22E,FF012111,104,48,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,22F,FF012111,104,56,1,N
+
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,232,FF012111,120,32,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,233,FF012111,120,40,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,234,FF012111,128,32,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,235,FF012111,128,40,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,236,FF012111,136,32,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,237,FF012111,136,40,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,238,FF012111,144,32,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,239,FF012111,144,40,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,23A,FF012111,136,48,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,23B,FF012111,136,56,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,23C,FF012111,144,48,1,N
+[hmirror&AttackPower1&LifePower1&PlayerInAir]<tile>17,23D,FF012111,144,56,1,N
+
+#Crouch
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,246,FF012111,168,32,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,247,FF012111,168,40,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,248,FF012111,176,32,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,249,FF012111,176,40,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,24A,FF012111,168,48,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,24B,FF012111,168,56,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,24C,FF012111,176,48,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,24D,FF012111,176,56,1,N
+
+#CrouchAttack
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,254,FF012111,184,48,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,255,FF012111,184,56,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,256,FF012111,192,32,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,257,FF012111,192,40,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,258,FF012111,200,32,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,259,FF012111,200,40,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,25A,FF012111,192,48,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,25B,FF012111,192,56,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,25C,FF012111,200,48,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,25D,FF012111,200,56,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,25E,FF012111,208,48,1,N
+[hmirror&AttackPower1&LifePower1&!PlayerInAir]<tile>17,25F,FF012111,208,56,1,N
+
 #}
 
 
