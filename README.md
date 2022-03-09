@@ -4,9 +4,9 @@ Coding: Giric
 
 Art: HaddianKey
 
-Additional work by: Evan.F, Aclectico, & Max Deacon VR
+Additional work by: Evan.F, Aclectico, Szadi art., & Max Deacon VR
 
-# Requres Mesen 0.9.9-210811 or latest!
+# Requres Mesen 0.9.9-211221 or latest!
 
 https://github.com/mkwong98/Mesen/releases
 
