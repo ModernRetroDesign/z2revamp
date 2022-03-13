@@ -10,6 +10,12 @@ Additional work by: Evan.F, Aclectico, Szadi art., & Max Deacon VR
 
 https://github.com/mkwong98/Mesen/releases
 
+# Installation instructions
+
+Extract the 'Zelda II - The Adventure of Link (USA)' folder into HdPacks folder
+
+A 200% overclock is recommended but not necessary. Set 'Additional Sscanlines before NMI' to 262. This option is located in the Emulation settings under Overclock.
+
 # To-Do (in no particular order)
 
 Finish experience bar percentages to 9000 (currently stops at 800)
