@@ -9930,7 +9930,11 @@
 [WestHyrule&Map1A&HUD]<background>02-1A.png,1,1,1,20
 [WestHyrule&Map1B&HUD]<background>02-1B.png,1,1,1,20
 [WestHyrule&Map1C&HUD]<background>02-1C.png,1,1,1,20
+
+#Desert
 [WestHyrule&Map1D&HUD]<background>02-1D.png,1,1,1,20
+[WestHyrule&Map1D&HUD]<background>02-1D_background.png,1,0.6,1,10,306,0
+
 [WestHyrule&Map1E&HUD]<background>02-1E.png,1,1,1,20
 [WestHyrule&Map1F&HUD]<background>02-1F.png,1,1,1,20
 [WestHyrule&Map20&HUD]<background>02-20.png,1,1,1,20
