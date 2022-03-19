@@ -15110,12 +15110,37 @@
 [ParapaTemple&Map03&PlayerPage0]<background>08-03.png,1,1,1,20,0,0
 [ParapaTemple&Map03&PlayerPageFF]<background>08-03.png,1,1,1,20,0,0
 
+# 0.6 parallax = 306 offset
+[ParapaTemple&Map04&PlayerPage3]<background>08-04_background.png,1,0.6,1,10,306,0
+[ParapaTemple&Map04&PlayerPage2&Page2Fix]<background>08-04_background.png,1,0.6,1,10,0,0
+[ParapaTemple&Map04&PlayerPage2]<background>08-04_background.png,1,0.6,1,10,306,0
+[ParapaTemple&Map04&PlayerPage1]<background>08-04_background.png,1,0.6,1,10,0,0
+[ParapaTemple&Map04&PlayerPage0]<background>08-04_background.png,1,0.6,1,10,0,0
+[ParapaTemple&Map04&PlayerPageFF]<background>08-04_background.png,1,0.6,1,10,0,0
 [ParapaTemple&Map04&PlayerPage3]<background>08-04.png,1,1,1,20,512,0
-[ParapaTemple&Map04&PlayerPage2&Page2Fix]<background>08-04.png,1,1,1,21,0,0
+[ParapaTemple&Map04&PlayerPage2&Page2Fix]<background>08-04.png,1,1,1,20,0,0
 [ParapaTemple&Map04&PlayerPage2]<background>08-04.png,1,1,1,20,512,0
 [ParapaTemple&Map04&PlayerPage1]<background>08-04.png,1,1,1,20,0,0
 [ParapaTemple&Map04&PlayerPage0]<background>08-04.png,1,1,1,20,0,0
 [ParapaTemple&Map04&PlayerPageFF]<background>08-04.png,1,1,1,20,0,0
+[ParapaTemple&Map04&PlayerPage3]<background>08-04_objects.png,1,1,1,21,512,0
+[ParapaTemple&Map04&PlayerPage2&Page2Fix]<background>08-04_objects.png,1,1,1,21,0,0
+[ParapaTemple&Map04&PlayerPage2]<background>08-04_objects.png,1,1,1,21,512,0
+[ParapaTemple&Map04&PlayerPage1]<background>08-04_objects.png,1,1,1,21,0,0
+[ParapaTemple&Map04&PlayerPage0]<background>08-04_objects.png,1,1,1,21,0,0
+[ParapaTemple&Map04&PlayerPageFF]<background>08-04_objects.png,1,1,1,21,0,0
+[ParapaTemple&Map04&PlayerPage3&!FullRed&!FullBlue&!FullGreen]<background>08-04_foreground.png,1,1,1,30,512,0
+[ParapaTemple&Map04&PlayerPage2&Page2Fix&!6FFix&!FullRed&!FullBlue&!FullGreen]<background>08-04_foreground.png,1,1,1,30,0,0
+[ParapaTemple&Map04&PlayerPage2&!FullRed&!FullBlue&!FullGreen]<background>08-04_foreground.png,1,1,1,30,512,0
+[ParapaTemple&Map04&PlayerPage1&!FullRed&!FullBlue&!FullGreen]<background>08-04_foreground.png,1,1,1,30,0,0
+[ParapaTemple&Map04&PlayerPage0&!FullRed&!FullBlue&!FullGreen]<background>08-04_foreground.png,1,1,1,30,0,0
+[ParapaTemple&Map04&PlayerPageFF&!FullRed&!FullBlue&!FullGreen]<background>08-04_foreground.png,1,1,1,30,0,0
+# glichfix
+[ParapaTemple&Map04&PlayerPage2&Page2Fix&6FFix]<background>08-04_6Ffix.png,1,0,0,29,0,0
+[ParapaTemple&Map04&PlayerPage2&70Fix]<background>08-04_70fix.png,1,0,0,29,0,0
+# ^still glitches sometimes
+
+
 
 [ParapaTemple&Map05&PlayerPage3]<background>08-05.png,1,1,1,20,512,0
 [ParapaTemple&Map05&PlayerPage2&Page2Fix]<background>08-05.png,1,1,1,21,0,0
