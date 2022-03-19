@@ -1,6 +1,7 @@
 <ver>106
 <scale>1
 <supportedRom>2B293E713ED2ECC6D55A6816CAD3EC0F67D0E43E
+<patch>Revamp.ips,4ba0b1e0e332e1f83a604cdc26998f78c474849b
 <img>UI.png
 <img>swordbeam.png
 <img>NPC\enemy_Lowder.png
@@ -9682,18 +9683,18 @@
 <tile>9,2BF,FF162730,64,8,1,N
 
 #Wosu
-<tile>11,930,FF162730,0,0,1,N
-<tile>11,931,FF162730,0,8,1,N
-<tile>11,932,FF162730,8,0,1,N
-<tile>11,933,FF162730,8,8,1,N
-<tile>11,944,FF162730,0,16,1,N
-<tile>11,945,FF162730,0,24,1,N
-<tile>11,946,FF162730,8,16,1,N
-<tile>11,947,FF162730,8,24,1,N
-<tile>11,948,FF162730,16,16,1,N
-<tile>11,949,FF162730,16,24,1,N
-<tile>11,94A,FF162730,24,16,1,N
-<tile>11,94B,FF162730,24,24,1,N
+[!Map08&!Map0B&!Map0C]<tile>11,930,FF162730,0,0,1,N
+[!Map08&!Map0B&!Map0C]<tile>11,931,FF162730,0,8,1,N
+[!Map08&!Map0B&!Map0C]<tile>11,932,FF162730,8,0,1,N
+[!Map08&!Map0B&!Map0C]<tile>11,933,FF162730,8,8,1,N
+[!Map08&!Map0B&!Map0C]<tile>11,944,FF162730,0,16,1,N
+[!Map08&!Map0B&!Map0C]<tile>11,945,FF162730,0,24,1,N
+[!Map08&!Map0B&!Map0C]<tile>11,946,FF162730,8,16,1,N
+[!Map08&!Map0B&!Map0C]<tile>11,947,FF162730,8,24,1,N
+[!Map08&!Map0B&!Map0C]<tile>11,948,FF162730,16,16,1,N
+[!Map08&!Map0B&!Map0C]<tile>11,949,FF162730,16,24,1,N
+[!Map08&!Map0B&!Map0C]<tile>11,94A,FF162730,24,16,1,N
+[!Map08&!Map0B&!Map0C]<tile>11,94B,FF162730,24,24,1,N
 
 #Bubble
 [!hmirror]<tile>12,966,FF022130,0,0,1,N
