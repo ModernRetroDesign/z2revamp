@@ -4,7 +4,11 @@ Coding: Giric
 
 Art: HaddianKey
 
+Tools: Lilo-san
+
 Additional work by: Evan.F, Aclectico, Szadi art., & Max Deacon VR
+
+Discord: https://discord.gg/feFCZMUQQm
 
 # Requres Mesen 0.9.9-211221 or latest!
 
@@ -21,8 +25,6 @@ A 200% overclock is recommended but not necessary. Set 'Additional scanlines bef
 Finish experience bar percentages to 9000 (currently stops at 800)
 
 Refine dialog boxes to reveal text as per orginal game
-
-NPC portraits
 
 Finish level up system (icons, layout, etc)
 
