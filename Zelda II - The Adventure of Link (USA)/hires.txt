@@ -1640,14 +1640,39 @@
 [HUD&GamePaused&!DialogBox&!LevelUpWindow&MagicPower7]<background>Inventory\SpellMenu-7Mag.png,1,0,0,30
 [HUD&GamePaused&!DialogBox&!LevelUpWindow&MagicPower8]<background>Inventory\SpellMenu-8Mag.png,1,0,0,30
 
-[HUD&GamePaused&!DialogBox&SpellShield&!LevelUpWindow]<background>Inventory\Pointer01.png,1,0,0,37
-[HUD&GamePaused&!DialogBox&SpellJump]<background>Inventory\Pointer02.png,1,0,0,37
-[HUD&GamePaused&!DialogBox&SpellHeal]<background>Inventory\Pointer03.png,1,0,0,37
-[HUD&GamePaused&!DialogBox&SpellFairy]<background>Inventory\Pointer04.png,1,0,0,37
-[HUD&GamePaused&!DialogBox&SpellFire]<background>Inventory\Pointer05.png,1,0,0,37
-[HUD&GamePaused&!DialogBox&SpellReflect]<background>Inventory\Pointer06.png,1,0,0,37
-[HUD&GamePaused&!DialogBox&SpellSpell]<background>Inventory\Pointer07.png,1,0,0,37
-[HUD&GamePaused&!DialogBox&SpellThunder&HaveThunder]<background>Inventory\Pointer08.png,1,0,0,37
+[HUD&GamePaused&!DialogBox&SpellShield&!LevelUpWindow&4fpsAnimFrame00]<background>Inventory\Pointer01a.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellShield&!LevelUpWindow&4fpsAnimFrame01]<background>Inventory\Pointer01b.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellShield&!LevelUpWindow&4fpsAnimFrame02]<background>Inventory\Pointer01a.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellShield&!LevelUpWindow&4fpsAnimFrame03]<background>Inventory\Pointer01b.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellJump&4fpsAnimFrame00]<background>Inventory\Pointer02a.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellJump&4fpsAnimFrame01]<background>Inventory\Pointer02b.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellJump&4fpsAnimFrame02]<background>Inventory\Pointer02a.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellJump&4fpsAnimFrame03]<background>Inventory\Pointer02b.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellHeal&4fpsAnimFrame00]<background>Inventory\Pointer03a.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellHeal&4fpsAnimFrame01]<background>Inventory\Pointer03b.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellHeal&4fpsAnimFrame02]<background>Inventory\Pointer03a.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellHeal&4fpsAnimFrame03]<background>Inventory\Pointer03b.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellFairy&4fpsAnimFrame00]<background>Inventory\Pointer04a.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellFairy&4fpsAnimFrame01]<background>Inventory\Pointer04b.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellFairy&4fpsAnimFrame02]<background>Inventory\Pointer04a.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellFairy&4fpsAnimFrame03]<background>Inventory\Pointer04b.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellFire&4fpsAnimFrame00]<background>Inventory\Pointer05a.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellFire&4fpsAnimFrame01]<background>Inventory\Pointer05b.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellFire&4fpsAnimFrame02]<background>Inventory\Pointer05a.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellFire&4fpsAnimFrame03]<background>Inventory\Pointer05b.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellReflect&4fpsAnimFrame00]<background>Inventory\Pointer06a.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellReflect&4fpsAnimFrame01]<background>Inventory\Pointer06b.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellReflect&4fpsAnimFrame02]<background>Inventory\Pointer06a.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellReflect&4fpsAnimFrame03]<background>Inventory\Pointer06b.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellSpell&4fpsAnimFrame00]<background>Inventory\Pointer07a.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellSpell&4fpsAnimFrame01]<background>Inventory\Pointer07b.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellSpell&4fpsAnimFrame02]<background>Inventory\Pointer07a.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellSpell&4fpsAnimFrame03]<background>Inventory\Pointer07b.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellThunder&HaveThunder&4fpsAnimFrame00]<background>Inventory\Pointer08a.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellThunder&HaveThunder&4fpsAnimFrame01]<background>Inventory\Pointer08b.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellThunder&HaveThunder&4fpsAnimFrame02]<background>Inventory\Pointer08a.png,1,0,0,37,0,0
+[HUD&GamePaused&!DialogBox&SpellThunder&HaveThunder&4fpsAnimFrame03]<background>Inventory\Pointer08b.png,1,0,0,37,0,0
+
 #[HUD&GamePaused&DialogBox]<background>DialogBox.png,1,0,0,38
 
 
