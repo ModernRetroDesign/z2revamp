@@ -656,6 +656,7 @@
 
 #Loading
 <condition>Loading0,memoryCheckConstant,736,==,0
+<condition>Loading1,memoryCheckConstant,736,==,1
 <condition>Loading2,memoryCheckConstant,736,==,2
 <condition>Loading3,memoryCheckConstant,736,==,3
 <condition>Loading6,memoryCheckConstant,736,==,6
@@ -670,8 +671,10 @@
 <condition>Loading15,memoryCheckConstant,736,==,15
 
 <condition>LoadingX,memoryCheckConstant,737,==,A
+<condition>LoadingY,memoryCheckConstant,737,==,3
 
 [Loading0]<background>Loading2.png,1,0,0,39,0,0
+[Loading1]<background>Loading1.png,1,0,0,39,0,0
 [Loading2]<background>Loading3.png,1,0,0,39,0,0
 [Loading3]<background>Loading4.png,1,0,0,39,0,0
 
@@ -688,6 +691,7 @@
 [Loading15]<background>Loading3.png,1,0,0,39,0,0
 
 [LoadingX]<background>Loading4.png,1,0,0,39,0,0
+[LoadingY]<background>Loading4.png,1,0,0,39,0,0
 
 
 #Map
@@ -1261,10 +1265,22 @@
 
 [HUD&LevelUpWindow]<background>LevelUpWindow.png,1,0,0,30
 
-[HUD&LevelUpWindow&CursorPos0]<background>CursorPos0.png,1,0,0,33
-[HUD&LevelUpWindow&CursorPos1]<background>CursorPos1.png,1,0,0,33
-[HUD&LevelUpWindow&CursorPos2]<background>CursorPos2.png,1,0,0,33
-[HUD&LevelUpWindow&CursorPos3]<background>CursorPos3.png,1,0,0,33
+[HUD&LevelUpWindow&CursorPos0&4fpsAnimFrame00]<background>CursorPos0a.png,1,0,0,33,0,0
+[HUD&LevelUpWindow&CursorPos0&4fpsAnimFrame01]<background>CursorPos0b.png,1,0,0,33,0,0
+[HUD&LevelUpWindow&CursorPos0&4fpsAnimFrame02]<background>CursorPos0a.png,1,0,0,33,0,0
+[HUD&LevelUpWindow&CursorPos0&4fpsAnimFrame03]<background>CursorPos0b.png,1,0,0,33,0,0
+[HUD&LevelUpWindow&CursorPos1&4fpsAnimFrame00]<background>CursorPos1a.png,1,0,0,33,0,0
+[HUD&LevelUpWindow&CursorPos1&4fpsAnimFrame01]<background>CursorPos1b.png,1,0,0,33,0,0
+[HUD&LevelUpWindow&CursorPos1&4fpsAnimFrame02]<background>CursorPos1a.png,1,0,0,33,0,0
+[HUD&LevelUpWindow&CursorPos1&4fpsAnimFrame03]<background>CursorPos1b.png,1,0,0,33,0,0
+[HUD&LevelUpWindow&CursorPos2&4fpsAnimFrame00]<background>CursorPos2a.png,1,0,0,33,0,0
+[HUD&LevelUpWindow&CursorPos2&4fpsAnimFrame01]<background>CursorPos2b.png,1,0,0,33,0,0
+[HUD&LevelUpWindow&CursorPos2&4fpsAnimFrame02]<background>CursorPos2a.png,1,0,0,33,0,0
+[HUD&LevelUpWindow&CursorPos2&4fpsAnimFrame03]<background>CursorPos2b.png,1,0,0,33,0,0
+[HUD&LevelUpWindow&CursorPos3&4fpsAnimFrame00]<background>CursorPos3a.png,1,0,0,33,0,0
+[HUD&LevelUpWindow&CursorPos3&4fpsAnimFrame01]<background>CursorPos3b.png,1,0,0,33,0,0
+[HUD&LevelUpWindow&CursorPos3&4fpsAnimFrame02]<background>CursorPos3a.png,1,0,0,33,0,0
+[HUD&LevelUpWindow&CursorPos3&4fpsAnimFrame03]<background>CursorPos3b.png,1,0,0,33,0,0
 
 #ElevatorPos
 #{
