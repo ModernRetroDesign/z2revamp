@@ -59,7 +59,8 @@
 <condition>LifeScreen,memoryCheckConstant,736,==,11
 <condition>GameOver,tileAtPosition,128,160,1124,1630270F
 <condition>ContinueOrSave,tileAtPosition,24,96,7CA,0F260F0F
-#<condition>TitleScreen,tileAtPosition,0,0,0,00000000
+<condition>TitleScreen,spriteAtPosition,120,118,F8,FF162630
+<condition>FileSelect,memoryCheckConstant,1B,>,1
 
 #Location
 <condition>WestHyrule,memoryCheckConstant,76E,==,2
@@ -653,6 +654,12 @@
 <condition>ConvoWithA5,memoryCheckConstant,48B,==,4
 <condition>ConvoWithA6,memoryCheckConstant,48B,==,5
 
+#TitleCursorPos
+<condition>TitleCursorPos0,memoryCheckConstant,19,==,0
+<condition>TitleCursorPos1,memoryCheckConstant,19,==,1
+<condition>TitleCursorPos2,memoryCheckConstant,19,==,2
+<condition>TitleCursorPos3,memoryCheckConstant,19,==,3
+<condition>TitleCursorPos4,memoryCheckConstant,19,==,4
 
 #Loading
 <condition>Loading0,memoryCheckConstant,736,==,0
@@ -673,26 +680,25 @@
 <condition>LoadingX,memoryCheckConstant,737,==,A
 <condition>LoadingY,memoryCheckConstant,737,==,3
 
-[Loading0]<background>Loading2.png,1,0,0,39,0,0
-[Loading1]<background>Loading1.png,1,0,0,39,0,0
-[Loading2]<background>Loading3.png,1,0,0,39,0,0
-[Loading3]<background>Loading4.png,1,0,0,39,0,0
+[Loading0&!TitleScreen&!FileSelect]<background>Loading2.png,1,0,0,39,0,0
+[Loading1&!TitleScreen]<background>Loading1.png,1,0,0,39,0,0
+[Loading2&!TitleScreen]<background>Loading3.png,1,0,0,39,0,0
+[Loading3&!TitleScreen]<background>Loading4.png,1,0,0,39,0,0
 
-[Loading6]<background>Loading1.png,1,0,0,39,0,0
-[Loading7]<background>Loading2.png,1,0,0,39,0,0
-[Loading8]<background>Loading3.png,1,0,0,39,0,0
-[Loading9]<background>Loading3.png,1,0,0,39,0,0
-[LoadingA]<background>Loading4.png,1,0,0,39,0,0
+[Loading6&!TitleScreen]<background>Loading1.png,1,0,0,39,0,0
+[Loading7&!TitleScreen]<background>Loading2.png,1,0,0,39,0,0
+[Loading8&!TitleScreen]<background>Loading3.png,1,0,0,39,0,0
+[Loading9&!TitleScreen]<background>Loading3.png,1,0,0,39,0,0
+[LoadingA&!TitleScreen]<background>Loading4.png,1,0,0,39,0,0
 
-[Loading10]<background>Loading1.png,1,0,0,39,0,0
-[Loading12]<background>Loading1.png,1,0,0,39,0,0
-[Loading13]<background>Loading1.png,1,0,0,39,0,0
-[Loading14]<background>Loading2.png,1,0,0,39,0,0
-[Loading15]<background>Loading3.png,1,0,0,39,0,0
+[Loading10&!TitleScreen]<background>Loading1.png,1,0,0,39,0,0
+[Loading12&!TitleScreen]<background>Loading1.png,1,0,0,39,0,0
+[Loading13&!TitleScreen]<background>Loading1.png,1,0,0,39,0,0
+[Loading14&!TitleScreen]<background>Loading2.png,1,0,0,39,0,0
+[Loading15&!TitleScreen]<background>Loading3.png,1,0,0,39,0,0
 
-[LoadingX]<background>Loading4.png,1,0,0,39,0,0
-[LoadingY]<background>Loading4.png,1,0,0,39,0,0
-
+[LoadingX&!TitleScreen]<background>Loading4.png,1,0,0,39,0,0
+[LoadingY&!TitleScreen]<background>Loading4.png,1,0,0,39,0,0
 
 #Map
 #{
@@ -1644,7 +1650,8 @@
 
 #OverworldPause
 <condition>OverworldPause,memoryCheckConstant,1FA,==,4D
-[!HUD&OverworldPause]<background>Paused.png,1,0,0,39
+<condition>FluteMusic,memoryCheckConstant,1F8,==,3C
+[!HUD&OverworldPause&!FluteMusic]<background>Paused.png,1,0,0,39
 
 #SpellMenu
 [HUD&GamePaused&!DialogBox&!LevelUpWindow&MagicPower1]<background>Inventory\SpellMenu-1Mag.png,1,0,0,30
