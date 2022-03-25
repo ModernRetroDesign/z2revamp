@@ -1668,6 +1668,8 @@
 <condition>OverworldPause,memoryCheckConstant,1FA,==,4D
 <condition>FluteMusic,memoryCheckConstant,1F8,==,3C
 [!HUD&OverworldPause&!FluteMusic]<background>Paused.png,1,0,0,39
+#OverworldBorder
+[!HUD&WestHyrule]<background>Overworld\WorldBorder.png,1,0,0,38
 
 #SpellMenu
 [HUD&GamePaused&!DialogBox&!LevelUpWindow&MagicPower1]<background>Inventory\SpellMenu-1Mag.png,1,0,0,30
