@@ -15,6 +15,8 @@
 <img>TownFolk\Rauru.png
 <img>NPC\enemy_Wosu.png
 <img>NPC\enemy_Bubble.png
+<img>NPC\enemy_Ache.png
+<img>NPC\enemy_Geldarm.png
 
 
 <options>disableSpriteLimit
@@ -56,7 +58,8 @@
 <condition>HUD,memoryCheckConstant,768,!=,0
 <condition>HUD2,ppuMemoryCheckConstant,207A,==,CE
 <condition>GamePaused,memoryCheckConstant,524,!=,0
-<condition>LifeScreen,memoryCheckConstant,736,==,11
+#<condition>LifeScreen,memoryCheckConstant,736,==,11
+<condition>LifeScreen,tileAtPosition,152,96,3FC,0F301216
 <condition>GameOver,tileAtPosition,128,160,1124,1630270F
 <condition>ContinueOrSave,tileAtPosition,24,96,7CA,0F260F0F
 <condition>TitleScreen,spriteAtPosition,120,118,F8,FF162630
@@ -86,7 +89,7 @@
 
 #DoesNotWorkInSwamps
 <condition>WorldMapFixFlicker,memoryCheckConstant,FD,==,FF
-
+<condition>WorldMapFixFlicker2,memoryCheckConstant,FC,==,EF
 
 
 #PlayerPage
@@ -695,28 +698,6 @@
 
 <condition>LoadingX,memoryCheckConstant,737,==,A
 <condition>LoadingY,memoryCheckConstant,737,==,3
-
-[Loading0&!TitleScreen&!FileSelect]<background>Loading2.png,1,0,0,39,0,0
-[Loading1&!TitleScreen]<background>Loading1.png,1,0,0,39,0,0
-[Loading2&!TitleScreen]<background>Loading3.png,1,0,0,39,0,0
-[Loading3&!TitleScreen]<background>Loading4.png,1,0,0,39,0,0
-
-[Loading4&!TitleScreen]<background>Black.png,1,0,0,39,0,0
-
-[Loading6&!TitleScreen]<background>Loading1.png,1,0,0,39,0,0
-[Loading7&!TitleScreen]<background>Loading2.png,1,0,0,39,0,0
-[Loading8&!TitleScreen]<background>Loading3.png,1,0,0,39,0,0
-[Loading9&!TitleScreen]<background>Loading3.png,1,0,0,39,0,0
-[LoadingA&!TitleScreen]<background>Loading4.png,1,0,0,39,0,0
-
-[Loading10&!TitleScreen]<background>Loading1.png,1,0,0,39,0,0
-[Loading12&!TitleScreen]<background>Loading1.png,1,0,0,39,0,0
-[Loading13&!TitleScreen]<background>Loading1.png,1,0,0,39,0,0
-[Loading14&!TitleScreen]<background>Loading2.png,1,0,0,39,0,0
-[Loading15&!TitleScreen]<background>Loading3.png,1,0,0,39,0,0
-
-[LoadingX&!TitleScreen]<background>Loading4.png,1,0,0,39,0,0
-[LoadingY&!TitleScreen]<background>Loading4.png,1,0,0,39,0,0
 
 #Map
 #{
@@ -1909,6 +1890,38 @@
 [LifeScreen]<background>Blank.png,1,0,0,5
 [GameOver]<background>Blank.png,1,0,0,5
 [ContinueOrSave]<background>Blank.png,1,0,0,5
+
+#ClearsLoadingScreenOnDeath
+[FullRed]<background>Blank.png,1,0,0,39
+[FullBlue]<background>Blank.png,1,0,0,39
+[FullGreen]<background>Blank.png,1,0,0,39
+[LifeScreen]<background>Blank.png,1,0,0,39
+[GameOver]<background>Blank.png,1,0,0,39
+[ContinueOrSave]<background>Blank.png,1,0,0,39
+
+#NeedToReorganiseLoadingLayer
+[Loading0&!TitleScreen&!FileSelect&!FullRed&!FullBlue&!FullGreen&!LifeScreen&!GameOver&!ContinueOrSave]<background>Loading2.png,1,0,0,39
+[Loading1&!TitleScreen&!FullRed&!FullBlue&!FullGreen&!LifeScreen&!GameOver&!ContinueOrSave]<background>Loading1.png,1,0,0,39
+[Loading2&!TitleScreen&!FullRed&!FullBlue&!FullGreen&!LifeScreen&!GameOver&!ContinueOrSave]<background>Loading3.png,1,0,0,39
+[Loading3&!TitleScreen&!FullRed&!FullBlue&!FullGreen&!LifeScreen&!GameOver&!ContinueOrSave]<background>Loading4.png,1,0,0,39
+
+[Loading4&!TitleScreen&!FullRed&!FullBlue&!FullGreen&!LifeScreen&!GameOver&!ContinueOrSave]<background>Black.png,1,0,0,39
+
+[Loading6&!TitleScreen&!FullRed&!FullBlue&!FullGreen&!LifeScreen&!GameOver&!ContinueOrSave]<background>Loading1.png,1,0,0,39
+[Loading7&!TitleScreen&!FullRed&!FullBlue&!FullGreen&!LifeScreen&!GameOver&!ContinueOrSave]<background>Loading2.png,1,0,0,39
+[Loading8&!TitleScreen&!FullRed&!FullBlue&!FullGreen&!LifeScreen&!GameOver&!ContinueOrSave]<background>Loading3.png,1,0,0,39
+[Loading9&!TitleScreen&!FullRed&!FullBlue&!FullGreen&!LifeScreen&!GameOver&!ContinueOrSave]<background>Loading3.png,1,0,0,39
+[LoadingA&!TitleScreen&!FullRed&!FullBlue&!FullGreen&!LifeScreen&!GameOver&!ContinueOrSave]<background>Loading4.png,1,0,0,39
+
+[Loading10&!TitleScreen&!FullRed&!FullBlue&!FullGreen&!LifeScreen&!GameOver&!ContinueOrSave]<background>Loading1.png,1,0,0,39
+[Loading12&!TitleScreen&!FullRed&!FullBlue&!FullGreen&!LifeScreen&!GameOver&!ContinueOrSave]<background>Loading1.png,1,0,0,39
+[Loading13&!TitleScreen&!FullRed&!FullBlue&!FullGreen&!LifeScreen&!GameOver&!ContinueOrSave]<background>Loading1.png,1,0,0,39
+[Loading14&!TitleScreen&!FullRed&!FullBlue&!FullGreen&!LifeScreen&!GameOver&!ContinueOrSave]<background>Loading2.png,1,0,0,39
+[Loading15&!TitleScreen&!FullRed&!FullBlue&!FullGreen&!LifeScreen&!GameOver&!ContinueOrSave]<background>Loading3.png,1,0,0,39
+
+[LoadingX&!TitleScreen&!FullRed&!FullBlue&!FullGreen&!LifeScreen&!GameOver&!ContinueOrSave]<background>Loading4.png,1,0,0,39
+[LoadingY&!TitleScreen&!FullRed&!FullBlue&!FullGreen&!LifeScreen&!GameOver&!ContinueOrSave]<background>Loading4.png,1,0,0,39
+
 
 
 [HUD&HUD2&4HeartContainers&4MagicContainers]<background>HUD\4Hearts-4Magic.png,1,0,0,0
@@ -9787,6 +9800,32 @@
 [hmirror]<tile>12,966,FF061630,56,0,1,N
 [hmirror]<tile>12,967,FF061630,56,8,1,N
 
+#Ache
+[!hmirror&!vmirror]<tile>13,24E,FF0C2C30,0,0,1,N
+[!hmirror&!vmirror]<tile>13,24F,FF0C2C30,0,8,1,N
+[hmirror&!vmirror]<tile>13,24E,FF0C2C30,8,0,1,N
+[hmirror&!vmirror]<tile>13,24F,FF0C2C30,8,8,1,N
+
+[!hmirror&!vmirror]<tile>13,250,FF0C2C30,16,0,1,N
+[!hmirror&!vmirror]<tile>13,251,FF0C2C30,16,8,1,N
+[hmirror&!vmirror]<tile>13,250,FF0C2C30,24,0,1,N
+[hmirror&!vmirror]<tile>13,251,FF0C2C30,24,8,1,N
+
+[!hmirror&vmirror]<tile>13,250,FF0C2C30,32,0,1,N
+[!hmirror&vmirror]<tile>13,251,FF0C2C30,32,8,1,N
+[hmirror&vmirror]<tile>13,250,FF0C2C30,40,0,1,N
+[hmirror&vmirror]<tile>13,251,FF0C2C30,40,8,1,N
+
+#Geldarm
+[!hmirror]<tile>14,262,FF0F1630,0,0,1,N
+[!hmirror]<tile>14,263,FF0F1630,0,8,1,N
+[hmirror]<tile>14,262,FF0F1630,8,0,1,N
+[hmirror]<tile>14,263,FF0F1630,8,8,1,N
+
+[!hmirror]<tile>14,264,FF0F1630,0,16,1,N
+[!hmirror]<tile>14,265,FF0F1630,0,24,1,N
+[hmirror]<tile>14,264,FF0F1630,8,16,1,N
+[hmirror]<tile>14,265,FF0F1630,8,24,1,N
 
 #HidePalaceTorches
 <tile>4,252,FF162730,0,0,1,N
@@ -10852,7 +10891,8 @@
 [!HUD&WestHyrule&!SubZone&WorldX08&WorldY23]<background>Overworld\west_hyrule-fix08.png,1,1,1,29,256,0,0
 [!HUD&WestHyrule&!SubZone&WorldX08&WorldY24]<background>Overworld\west_hyrule-fix08.png,1,1,1,29,256,0,0
 #PPUupdate
-[!HUD&WestHyrule&!SubZone&WorldX08&WorldY25]<background>Overworld\west_hyrule-fix08.png,1,1,1,29,256,480,0
+[!HUD&WestHyrule&!SubZone&WorldX08&WorldY25&!WorldFaceDown]<background>Overworld\west_hyrule-fix08.png,1,1,1,29,256,480,0
+[!HUD&WestHyrule&!SubZone&WorldX08&WorldY25&WorldFaceDown]<background>Overworld\west_hyrule-fix25.png,1,1,1,29,256,480,0
 [!HUD&WestHyrule&!SubZone&WorldX08&WorldY26]<background>Overworld\west_hyrule-fix08.png,1,1,1,29,256,480,0
 [!HUD&WestHyrule&!SubZone&WorldX08&WorldY27]<background>Overworld\west_hyrule-fix08.png,1,1,1,29,256,480,0
 [!HUD&WestHyrule&!SubZone&WorldX08&WorldY28]<background>Overworld\west_hyrule-fix08.png,1,1,1,29,256,480,0
@@ -12194,7 +12234,8 @@
 [!HUD&WestHyrule&!SubZone&WorldX18&WorldY23]<background>Overworld\west_hyrule-fix18.png,1,1,1,29,512,0,0
 [!HUD&WestHyrule&!SubZone&WorldX18&WorldY24]<background>Overworld\west_hyrule-fix18.png,1,1,1,29,512,0,0
 #PPUupdate
-[!HUD&WestHyrule&!SubZone&WorldX18&WorldY25]<background>Overworld\west_hyrule-fix18.png,1,1,1,29,512,480,0
+[!HUD&WestHyrule&!SubZone&WorldX18&WorldY25&!WorldFaceDown]<background>Overworld\west_hyrule-fix18.png,1,1,1,29,512,480,0
+[!HUD&WestHyrule&!SubZone&WorldX18&WorldY25&WorldFaceDown]<background>Overworld\west_hyrule-fix25.png,1,1,1,29,512,480,0
 [!HUD&WestHyrule&!SubZone&WorldX18&WorldY26]<background>Overworld\west_hyrule-fix18.png,1,1,1,29,512,480,0
 [!HUD&WestHyrule&!SubZone&WorldX18&WorldY27]<background>Overworld\west_hyrule-fix18.png,1,1,1,29,512,480,0
 [!HUD&WestHyrule&!SubZone&WorldX18&WorldY28]<background>Overworld\west_hyrule-fix18.png,1,1,1,29,512,480,0
@@ -13535,7 +13576,8 @@
 [!HUD&WestHyrule&!SubZone&WorldX28&WorldY23]<background>Overworld\west_hyrule-fix28.png,1,1,1,29,768,0,0
 [!HUD&WestHyrule&!SubZone&WorldX28&WorldY24]<background>Overworld\west_hyrule-fix28.png,1,1,1,29,768,0,0
 #PPUupdate
-[!HUD&WestHyrule&!SubZone&WorldX28&WorldY25]<background>Overworld\west_hyrule-fix28.png,1,1,1,29,768,480,0
+[!HUD&WestHyrule&!SubZone&WorldX28&WorldY25&!WorldFaceDown]<background>Overworld\west_hyrule-fix28.png,1,1,1,29,768,480,0
+[!HUD&WestHyrule&!SubZone&WorldX28&WorldY25&WorldFaceDown]<background>Overworld\west_hyrule-fix25.png,1,1,1,29,768,480,0
 [!HUD&WestHyrule&!SubZone&WorldX28&WorldY26]<background>Overworld\west_hyrule-fix28.png,1,1,1,29,768,480,0
 [!HUD&WestHyrule&!SubZone&WorldX28&WorldY27]<background>Overworld\west_hyrule-fix28.png,1,1,1,29,768,480,0
 [!HUD&WestHyrule&!SubZone&WorldX28&WorldY28]<background>Overworld\west_hyrule-fix28.png,1,1,1,29,768,480,0
@@ -14877,7 +14919,9 @@
 [!HUD&WestHyrule&!SubZone&WorldX38&WorldY23]<background>Overworld\west_hyrule-fix38.png,1,1,1,29,1024,0,0
 [!HUD&WestHyrule&!SubZone&WorldX38&WorldY24]<background>Overworld\west_hyrule-fix38.png,1,1,1,29,1024,0,0
 #PPUupdate
-[!HUD&WestHyrule&!SubZone&WorldX38&WorldY25]<background>Overworld\west_hyrule-fix38.png,1,1,1,29,1024,480,0
+[!HUD&WestHyrule&!SubZone&WorldX38&WorldY25&!WorldFaceDown]<background>Overworld\west_hyrule-fix38.png,1,1,1,29,1024,480,0
+[!HUD&WestHyrule&!SubZone&WorldX38&WorldY25&WorldFaceDown]<background>Overworld\west_hyrule-fix25.png,1,1,1,29,1024,480,0
+#FlickerHeadingNorthOnX38Y25
 [!HUD&WestHyrule&!SubZone&WorldX38&WorldY26]<background>Overworld\west_hyrule-fix38.png,1,1,1,29,1024,480,0
 [!HUD&WestHyrule&!SubZone&WorldX38&WorldY27]<background>Overworld\west_hyrule-fix38.png,1,1,1,29,1024,480,0
 [!HUD&WestHyrule&!SubZone&WorldX38&WorldY28]<background>Overworld\west_hyrule-fix38.png,1,1,1,29,1024,480,0
