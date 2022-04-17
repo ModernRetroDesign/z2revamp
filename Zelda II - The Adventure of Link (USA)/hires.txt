@@ -99,7 +99,7 @@
 <condition>PlayerPage1,memoryCheckConstant,3B,==,1
 <condition>PlayerPage2,memoryCheckConstant,3B,==,2
 <condition>PlayerPage3,memoryCheckConstant,3B,==,3
-<condition>PlayerPageFF,memoryCheckConstant,3B,==,FF
+#<condition>PlayerPageFF,memoryCheckConstant,3B,==,FF
 <condition>Page2Fix,memoryCheckConstant,4D,<=,6F
 <condition>6FFix,memoryCheckConstant,4D,==,6F
 <condition>70Fix,memoryCheckConstant,4D,==,70
@@ -9891,32 +9891,27 @@
 [Town&Map02&PlayerPage2]<background>06-02_background.png,1,0.6,1,10,0,0
 [Town&Map02&PlayerPage1]<background>06-02_background.png,1,0.6,1,10,0,0
 [Town&Map02&PlayerPage0]<background>06-02_background.png,1,0.6,1,10,0,0
-[Town&Map02&PlayerPageFF]<background>06-02_background.png,1,0.6,1,10,0,0
 [Town&Map02&PlayerPage3]<background>06-02.png,1,1,1,20,512,0
 [Town&Map02&PlayerPage2&Page2Fix]<background>06-02.png,1,1,1,20,0,0
 [Town&Map02&PlayerPage2]<background>06-02.png,1,1,1,20,512,0
 [Town&Map02&PlayerPage1]<background>06-02.png,1,1,1,20,0,0
 [Town&Map02&PlayerPage0]<background>06-02.png,1,1,1,20,0,0
-[Town&Map02&PlayerPageFF]<background>06-02.png,1,1,1,20,0,0
 [Town&Map02&PlayerPage3]<background>06-02_objects.png,1,1,1,21,512,0
 [Town&Map02&PlayerPage2&Page2Fix]<background>06-02_objects.png,1,1,1,21,0,0
 [Town&Map02&PlayerPage2]<background>06-02_objects.png,1,1,1,21,512,0
 [Town&Map02&PlayerPage1]<background>06-02_objects.png,1,1,1,21,0,0
 [Town&Map02&PlayerPage0]<background>06-02_objects.png,1,1,1,21,0,0
-[Town&Map02&PlayerPageFF]<background>06-02_objects.png,1,1,1,21,0,0
 [Town&Map02&PlayerPage3]<background>06-02_foreground.png,1,1,1,30,512,0
 [Town&Map02&PlayerPage2&Page2Fix]<background>06-02_foreground.png,1,1,1,30,0,0
 [Town&Map02&PlayerPage2]<background>06-02_foreground.png,1,1,1,30,512,0
 [Town&Map02&PlayerPage1]<background>06-02_foreground.png,1,1,1,30,0,0
 [Town&Map02&PlayerPage0]<background>06-02_foreground.png,1,1,1,30,0,0
-[Town&Map02&PlayerPageFF]<background>06-02_foreground.png,1,1,1,30,0,0
 
 [Town&Map01&PlayerPage3]<background>06-01.png,1,1,1,20,512,0
 [Town&Map01&PlayerPage2&Page2Fix]<background>06-01.png,1,1,1,20,0,0
 [Town&Map01&PlayerPage2]<background>06-01.png,1,1,1,20,512,0
 [Town&Map01&PlayerPage1]<background>06-01.png,1,1,1,20,0,0
 [Town&Map01&PlayerPage0]<background>06-01.png,1,1,1,20,0,0
-[Town&Map01&PlayerPageFF]<background>06-01.png,1,1,1,20,0,0
 
 [Town&Map1C&PlayerPage3]<background>06-1C.png,1,1,1,20,512,0
 [Town&Map1C&PlayerPage2]<background>06-1C.png,1,1,1,20,512,0
@@ -9941,19 +9936,16 @@
 #[Town&Map0B&HUD&PlayerPage2]<background>mido_east.png,1,1,1,20,512,0
 #[Town&Map0B&HUD&PlayerPage1]<background>mido_east.png,1,1,1,20,0,0
 #[Town&Map0B&HUD&PlayerPage0]<background>mido_east.png,1,1,1,20,0,0
-#[Town&Map0B&HUD&PlayerPageFF]<background>mido_east.png,1,1,1,20,0,0
 #[Town&Map0A&HUD&PlayerPage3]<background>mido_centre.png,1,1,1,20,512,0
 #[Town&Map0A&HUD&PlayerPage2&Page2Fix]<background>mido_centre.png,1,1,1,20,0,0
 #[Town&Map0A&HUD&PlayerPage2]<background>mido_centre.png,1,1,1,20,512,0
 #[Town&Map0A&HUD&PlayerPage1]<background>mido_centre.png,1,1,1,20,0,0
 #[Town&Map0A&HUD&PlayerPage0]<background>mido_centre.png,1,1,1,20,0,0
-#[Town&Map0A&HUD&PlayerPageFF]<background>mido_centre.png,1,1,1,20,0,0
 #[Town&Map09&HUD&PlayerPage3]<background>mido_west.png,1,1,1,20,512,0
 #[Town&Map09&HUD&PlayerPage2&Page2Fix]<background>mido_west.png,1,1,1,20,0,0
 #[Town&Map09&HUD&PlayerPage2]<background>mido_west.png,1,1,1,20,512,0
 #[Town&Map09&HUD&PlayerPage1]<background>mido_west.png,1,1,1,20,0,0
 #[Town&Map09&HUD&PlayerPage0]<background>mido_west.png,1,1,1,20,0,0
-#[Town&Map09&HUD&PlayerPageFF]<background>mido_west.png,1,1,1,20,0,0
 
 #Encounters
 [WestHyrule&!SubZone&Map01&HUD]<background>02-01.png,1,1,1,20
@@ -9969,7 +9961,6 @@
 [WestHyrule&!SubZone&Map07&HUD&HaveCandle&PlayerPage2]<background>02-07.png,1,1,1,20,512,0
 [WestHyrule&!SubZone&Map07&HUD&HaveCandle&PlayerPage1]<background>02-07.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map07&HUD&HaveCandle&PlayerPage0]<background>02-07.png,1,1,1,20,0,0
-[WestHyrule&!SubZone&Map07&HUD&HaveCandle&PlayerPageFF]<background>02-07.png,1,1,1,20,0,0
 
 #CaveToParapa  0.6 parallax = 306 offset
 [WestHyrule&!SubZone&Map07&HUD&!HaveCandle&PlayerPage3]<background>02-07_dark-background.png,1,0.6,1,10,306,0
@@ -9977,25 +9968,21 @@
 [WestHyrule&!SubZone&Map07&HUD&!HaveCandle&PlayerPage2]<background>02-07_dark-background.png,1,0.6,1,10,306,0
 [WestHyrule&!SubZone&Map07&HUD&!HaveCandle&PlayerPage1]<background>02-07_dark-background.png,1,0.6,1,10,0,0
 [WestHyrule&!SubZone&Map07&HUD&!HaveCandle&PlayerPage0]<background>02-07_dark-background.png,1,0.6,1,10,0,0
-[WestHyrule&!SubZone&Map07&HUD&!HaveCandle&PlayerPageFF]<background>02-07_dark-background.png,1,0.6,1,10,0,0
 [WestHyrule&!SubZone&Map07&HUD&!HaveCandle&PlayerPage3]<background>02-07_dark.png,1,1,1,20,512,0
 [WestHyrule&!SubZone&Map07&HUD&!HaveCandle&PlayerPage2&Page2Fix]<background>02-07_dark.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map07&HUD&!HaveCandle&PlayerPage2]<background>02-07_dark.png,1,1,1,20,512,0
 [WestHyrule&!SubZone&Map07&HUD&!HaveCandle&PlayerPage1]<background>02-07_dark.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map07&HUD&!HaveCandle&PlayerPage0]<background>02-07_dark.png,1,1,1,20,0,0
-[WestHyrule&!SubZone&Map07&HUD&!HaveCandle&PlayerPageFF]<background>02-07_dark.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map07&HUD&!HaveCandle&PlayerPage3]<background>02-07_dark-objects.png,1,1,1,21,512,0
 [WestHyrule&!SubZone&Map07&HUD&!HaveCandle&PlayerPage2&Page2Fix]<background>02-07_dark-objects.png,1,1,1,21,0,0
 [WestHyrule&!SubZone&Map07&HUD&!HaveCandle&PlayerPage2]<background>02-07_dark-objects.png,1,1,1,21,512,0
 [WestHyrule&!SubZone&Map07&HUD&!HaveCandle&PlayerPage1]<background>02-07_dark-objects.png,1,1,1,21,0,0
 [WestHyrule&!SubZone&Map07&HUD&!HaveCandle&PlayerPage0]<background>02-07_dark-objects.png,1,1,1,21,0,0
-[WestHyrule&!SubZone&Map07&HUD&!HaveCandle&PlayerPageFF]<background>02-07_dark-objects.png,1,1,1,21,0,0
 [WestHyrule&!SubZone&Map07&HUD&!HaveCandle&PlayerPage3&!FullRed&!FullBlue&!FullGreen]<background>02-07_dark-foreground.png,1,1,1,30,512,0
 [WestHyrule&!SubZone&Map07&HUD&!HaveCandle&PlayerPage2&Page2Fix&!6FFix&!FullRed&!FullBlue&!FullGreen]<background>02-07_dark-foreground.png,1,1,1,30,0,0
 [WestHyrule&!SubZone&Map07&HUD&!HaveCandle&PlayerPage2&!FullRed&!FullBlue&!FullGreen]<background>02-07_dark-foreground.png,1,1,1,30,512,0
 [WestHyrule&!SubZone&Map07&HUD&!HaveCandle&PlayerPage1&!FullRed&!FullBlue&!FullGreen]<background>02-07_dark-foreground.png,1,1,1,30,0,0
 [WestHyrule&!SubZone&Map07&HUD&!HaveCandle&PlayerPage0&!FullRed&!FullBlue&!FullGreen]<background>02-07_dark-foreground.png,1,1,1,30,0,0
-[WestHyrule&!SubZone&Map07&HUD&!HaveCandle&PlayerPageFF&!FullRed&!FullBlue&!FullGreen]<background>02-07_dark-foreground.png,1,1,1,30,0,0
 
 [WestHyrule&!SubZone&Map07&HUD&!HaveCandle&PlayerPage2&Page2Fix&6FFix]<background>02-07_dark-6Ffix.png,1,0,0,29,0,0
 [WestHyrule&!SubZone&Map07&HUD&!HaveCandle&PlayerPage2&70Fix]<background>02-07_dark-70fix.png,1,0,0,29,0,0
@@ -10013,39 +10000,33 @@
 [WestHyrule&!SubZone&Map09&HUD&HaveCandle&PlayerPage2]<background>02-09.png,1,1,1,20,512,0
 [WestHyrule&!SubZone&Map09&HUD&HaveCandle&PlayerPage1]<background>02-09.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map09&HUD&HaveCandle&PlayerPage0]<background>02-09.png,1,1,1,20,0,0
-[WestHyrule&!SubZone&Map09&HUD&HaveCandle&PlayerPageFF]<background>02-09.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map09&HUD&!HaveCandle&PlayerPage3]<background>02-09_dark.png,1,1,1,20,512,0
 [WestHyrule&!SubZone&Map09&HUD&!HaveCandle&PlayerPage2&Page2Fix]<background>02-09_dark.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map09&HUD&!HaveCandle&PlayerPage2]<background>02-09_dark.png,1,1,1,20,512,0
 [WestHyrule&!SubZone&Map09&HUD&!HaveCandle&PlayerPage1]<background>02-09_dark.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map09&HUD&!HaveCandle&PlayerPage0]<background>02-09_dark.png,1,1,1,20,0,0
-[WestHyrule&!SubZone&Map09&HUD&!HaveCandle&PlayerPageFF]<background>02-09_dark.png,1,1,1,20,0,0
 
 [WestHyrule&!SubZone&Map0A&HUD&HaveCandle&PlayerPage3]<background>02-0A.png,1,1,1,20,512,0
 [WestHyrule&!SubZone&Map0A&HUD&HaveCandle&PlayerPage2&Page2Fix]<background>02-0A.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map0A&HUD&HaveCandle&PlayerPage2]<background>02-0A.png,1,1,1,20,512,0
 [WestHyrule&!SubZone&Map0A&HUD&HaveCandle&PlayerPage1]<background>02-0A.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map0A&HUD&HaveCandle&PlayerPage0]<background>02-0A.png,1,1,1,20,0,0
-[WestHyrule&!SubZone&Map0A&HUD&HaveCandle&PlayerPageFF]<background>02-0A.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map0A&HUD&!HaveCandle&PlayerPage3]<background>02-0A_dark.png,1,1,1,20,512,0
 [WestHyrule&!SubZone&Map0A&HUD&!HaveCandle&PlayerPage2&Page2Fix]<background>02-0A_dark.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map0A&HUD&!HaveCandle&PlayerPage2]<background>02-0A_dark.png,1,1,1,20,512,0
 [WestHyrule&!SubZone&Map0A&HUD&!HaveCandle&PlayerPage1]<background>02-0A_dark.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map0A&HUD&!HaveCandle&PlayerPage0]<background>02-0A_dark.png,1,1,1,20,0,0
-[WestHyrule&!SubZone&Map0A&HUD&!HaveCandle&PlayerPageFF]<background>02-0A_dark.png,1,1,1,20,0,0
 
 [WestHyrule&!SubZone&Map0B&HUD&HaveCandle&PlayerPage3]<background>02-0B.png,1,1,1,20,512,0
 [WestHyrule&!SubZone&Map0B&HUD&HaveCandle&PlayerPage2&Page2Fix]<background>02-0B.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map0B&HUD&HaveCandle&PlayerPage2]<background>02-0B.png,1,1,1,20,512,0
 [WestHyrule&!SubZone&Map0B&HUD&HaveCandle&PlayerPage1]<background>02-0B.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map0B&HUD&HaveCandle&PlayerPage0]<background>02-0B.png,1,1,1,20,0,0
-[WestHyrule&!SubZone&Map0B&HUD&HaveCandle&PlayerPageFF]<background>02-0B.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map0B&HUD&!HaveCandle&PlayerPage3]<background>02-0B_dark.png,1,1,1,20,512,0
 [WestHyrule&!SubZone&Map0B&HUD&!HaveCandle&PlayerPage2&Page2Fix]<background>02-0B_dark.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map0B&HUD&!HaveCandle&PlayerPage2]<background>02-0B_dark.png,1,1,1,20,512,0
 [WestHyrule&!SubZone&Map0B&HUD&!HaveCandle&PlayerPage1]<background>02-0B_dark.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map0B&HUD&!HaveCandle&PlayerPage0]<background>02-0B_dark.png,1,1,1,20,0,0
-[WestHyrule&!SubZone&Map0B&HUD&!HaveCandle&PlayerPageFF]<background>02-0B_dark.png,1,1,1,20,0,0
 
 
 [WestHyrule&!SubZone&Map0C&HUD]<background>02-0C.png,1,1,1,20
@@ -10142,13 +10123,11 @@
 [WestHyrule&!SubZone&Map21&HUD&HaveCandle&PlayerPage2]<background>02-21.png,1,1,1,20,512,0
 [WestHyrule&!SubZone&Map21&HUD&HaveCandle&PlayerPage1]<background>02-21.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map21&HUD&HaveCandle&PlayerPage0]<background>02-21.png,1,1,1,20,0,0
-[WestHyrule&!SubZone&Map21&HUD&HaveCandle&PlayerPageFF]<background>02-21.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map21&HUD&!HaveCandle&PlayerPage3]<background>02-21_dark.png,1,1,1,20,512,0
 [WestHyrule&!SubZone&Map21&HUD&!HaveCandle&PlayerPage2&Page2Fix]<background>02-21_dark.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map21&HUD&!HaveCandle&PlayerPage2]<background>02-21_dark.png,1,1,1,20,512,0
 [WestHyrule&!SubZone&Map21&HUD&!HaveCandle&PlayerPage1]<background>02-21_dark.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map21&HUD&!HaveCandle&PlayerPage0]<background>02-21_dark.png,1,1,1,20,0,0
-[WestHyrule&!SubZone&Map21&HUD&!HaveCandle&PlayerPageFF]<background>02-21_dark.png,1,1,1,20,0,0
 
 [WestHyrule&!SubZone&Map22&HUD]<background>02-22.png,1,1,1,20
 [WestHyrule&!SubZone&Map23&HUD]<background>02-23.png,1,1,1,20
@@ -10175,7 +10154,6 @@
 [WestHyrule&!SubZone&Map2B&HUD&PlayerPage2]<background>02-2B.png,1,1,1,20,512,0
 [WestHyrule&!SubZone&Map2B&HUD&PlayerPage1]<background>02-2B.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map2B&HUD&PlayerPage0]<background>02-2B.png,1,1,1,20,0,0
-[WestHyrule&!SubZone&Map2B&HUD&PlayerPageFF]<background>02-2B.png,1,1,1,20,0,0
 
 [WestHyrule&!SubZone&Map2C&HUD]<background>02-2C.png,1,1,1,20
 
@@ -10185,25 +10163,21 @@
 [WestHyrule&!SubZone&Map2D&HUD&HaveCandle&PlayerPage2]<background>02-2D_background.png,1,0.6,1,10,306,0
 [WestHyrule&!SubZone&Map2D&HUD&HaveCandle&PlayerPage1]<background>02-2D_background.png,1,0.6,1,10,0,0
 [WestHyrule&!SubZone&Map2D&HUD&HaveCandle&PlayerPage0]<background>02-2D_background.png,1,0.6,1,10,0,0
-[WestHyrule&!SubZone&Map2D&HUD&HaveCandle&PlayerPageFF]<background>02-2D_background.png,1,0.6,1,10,0,0
 [WestHyrule&!SubZone&Map2D&HUD&HaveCandle&PlayerPage3]<background>02-2D.png,1,1,1,20,512,0
 [WestHyrule&!SubZone&Map2D&HUD&HaveCandle&PlayerPage2&Page2Fix]<background>02-2D.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map2D&HUD&HaveCandle&PlayerPage2]<background>02-2D.png,1,1,1,20,512,0
 [WestHyrule&!SubZone&Map2D&HUD&HaveCandle&PlayerPage1]<background>02-2D.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map2D&HUD&HaveCandle&PlayerPage0]<background>02-2D.png,1,1,1,20,0,0
-[WestHyrule&!SubZone&Map2D&HUD&HaveCandle&PlayerPageFF]<background>02-2D.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map2D&HUD&HaveCandle&PlayerPage3]<background>02-2D_objects.png,1,1,1,21,512,0
 [WestHyrule&!SubZone&Map2D&HUD&HaveCandle&PlayerPage2&Page2Fix]<background>02-2D_objects.png,1,1,1,21,0,0
 [WestHyrule&!SubZone&Map2D&HUD&HaveCandle&PlayerPage2]<background>02-2D_objects.png,1,1,1,21,512,0
 [WestHyrule&!SubZone&Map2D&HUD&HaveCandle&PlayerPage1]<background>02-2D_objects.png,1,1,1,21,0,0
 [WestHyrule&!SubZone&Map2D&HUD&HaveCandle&PlayerPage0]<background>02-2D_objects.png,1,1,1,21,0,0
-[WestHyrule&!SubZone&Map2D&HUD&HaveCandle&PlayerPageFF]<background>02-2D_objects.png,1,1,1,21,0,0
 [WestHyrule&!SubZone&Map2D&HUD&HaveCandle&PlayerPage3&!FullRed&!FullBlue&!FullGreen]<background>02-2D_foreground.png,1,1,1,30,512,0
 [WestHyrule&!SubZone&Map2D&HUD&HaveCandle&PlayerPage2&Page2Fix&!6FFix&!FullRed&!FullBlue&!FullGreen]<background>02-2D_foreground.png,1,1,1,30,0,0
 [WestHyrule&!SubZone&Map2D&HUD&HaveCandle&PlayerPage2&!FullRed&!FullBlue&!FullGreen]<background>02-2D_foreground.png,1,1,1,30,512,0
 [WestHyrule&!SubZone&Map2D&HUD&HaveCandle&PlayerPage1&!FullRed&!FullBlue&!FullGreen]<background>02-2D_foreground.png,1,1,1,30,0,0
 [WestHyrule&!SubZone&Map2D&HUD&HaveCandle&PlayerPage0&!FullRed&!FullBlue&!FullGreen]<background>02-2D_foreground.png,1,1,1,30,0,0
-[WestHyrule&!SubZone&Map2D&HUD&HaveCandle&PlayerPageFF&!FullRed&!FullBlue&!FullGreen]<background>02-2D_foreground.png,1,1,1,30,0,0
 
 [WestHyrule&!SubZone&Map2D&HUD&HaveCandle&PlayerPage2&Page2Fix&6FFix]<background>02-2D_6Ffix.png,1,0,0,29,0,0
 [WestHyrule&!SubZone&Map2D&HUD&HaveCandle&PlayerPage2&70Fix]<background>02-2D_70fix.png,1,0,0,29,0,0
@@ -10215,25 +10189,21 @@
 [WestHyrule&!SubZone&Map2D&HUD&!HaveCandle&PlayerPage2]<background>02-2D_dark-background.png,1,0.6,1,10,306,0
 [WestHyrule&!SubZone&Map2D&HUD&!HaveCandle&PlayerPage1]<background>02-2D_dark-background.png,1,0.6,1,10,0,0
 [WestHyrule&!SubZone&Map2D&HUD&!HaveCandle&PlayerPage0]<background>02-2D_dark-background.png,1,0.6,1,10,0,0
-[WestHyrule&!SubZone&Map2D&HUD&!HaveCandle&PlayerPageFF]<background>02-2D_dark-background.png,1,0.6,1,10,0,0
 [WestHyrule&!SubZone&Map2D&HUD&!HaveCandle&PlayerPage3]<background>02-2D_dark.png,1,1,1,20,512,0
 [WestHyrule&!SubZone&Map2D&HUD&!HaveCandle&PlayerPage2&Page2Fix]<background>02-2D_dark.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map2D&HUD&!HaveCandle&PlayerPage2]<background>02-2D_dark.png,1,1,1,20,512,0
 [WestHyrule&!SubZone&Map2D&HUD&!HaveCandle&PlayerPage1]<background>02-2D_dark.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map2D&HUD&!HaveCandle&PlayerPage0]<background>02-2D_dark.png,1,1,1,20,0,0
-[WestHyrule&!SubZone&Map2D&HUD&!HaveCandle&PlayerPageFF]<background>02-2D_dark.png,1,1,1,20,0,0
 [WestHyrule&!SubZone&Map2D&HUD&!HaveCandle&PlayerPage3]<background>02-2D_dark-objects.png,1,1,1,21,512,0
 [WestHyrule&!SubZone&Map2D&HUD&!HaveCandle&PlayerPage2&Page2Fix]<background>02-2D_dark-objects.png,1,1,1,21,0,0
 [WestHyrule&!SubZone&Map2D&HUD&!HaveCandle&PlayerPage2]<background>02-2D_dark-objects.png,1,1,1,21,512,0
 [WestHyrule&!SubZone&Map2D&HUD&!HaveCandle&PlayerPage1]<background>02-2D_dark-objects.png,1,1,1,21,0,0
 [WestHyrule&!SubZone&Map2D&HUD&!HaveCandle&PlayerPage0]<background>02-2D_dark-objects.png,1,1,1,21,0,0
-[WestHyrule&!SubZone&Map2D&HUD&!HaveCandle&PlayerPageFF]<background>02-2D_dark-objects.png,1,1,1,21,0,0
 [WestHyrule&!SubZone&Map2D&HUD&!HaveCandle&PlayerPage3&!FullRed&!FullBlue&!FullGreen]<background>02-2D_dark-foreground.png,1,1,1,30,512,0
 [WestHyrule&!SubZone&Map2D&HUD&!HaveCandle&PlayerPage2&Page2Fix&!6FFix&!FullRed&!FullBlue&!FullGreen]<background>02-2D_dark-foreground.png,1,1,1,30,0,0
 [WestHyrule&!SubZone&Map2D&HUD&!HaveCandle&PlayerPage2&!FullRed&!FullBlue&!FullGreen]<background>02-2D_dark-foreground.png,1,1,1,30,512,0
 [WestHyrule&!SubZone&Map2D&HUD&!HaveCandle&PlayerPage1&!FullRed&!FullBlue&!FullGreen]<background>02-2D_dark-foreground.png,1,1,1,30,0,0
 [WestHyrule&!SubZone&Map2D&HUD&!HaveCandle&PlayerPage0&!FullRed&!FullBlue&!FullGreen]<background>02-2D_dark-foreground.png,1,1,1,30,0,0
-[WestHyrule&!SubZone&Map2D&HUD&!HaveCandle&PlayerPageFF&!FullRed&!FullBlue&!FullGreen]<background>02-2D_dark-foreground.png,1,1,1,30,0,0
 
 [WestHyrule&!SubZone&Map2D&HUD&!HaveCandle&PlayerPage2&Page2Fix&6FFix]<background>02-2D_dark-6Ffix.png,1,0,0,29,0,0
 [WestHyrule&!SubZone&Map2D&HUD&!HaveCandle&PlayerPage2&70Fix]<background>02-2D_dark-70fix.png,1,0,0,29,0,0
@@ -31750,58 +31720,45 @@
 [ParapaTemple&Map00&PlayerPage2]<background>08-00.png,1,1,1,20,512,0
 [ParapaTemple&Map00&PlayerPage1]<background>08-00.png,1,1,1,20,0,0
 [ParapaTemple&Map00&PlayerPage0]<background>08-00.png,1,1,1,20,0,0
-[ParapaTemple&Map00&PlayerPageFF]<background>08-00.png,1,1,1,20,0,0
 
 [ParapaTemple&Map01&PlayerPage3]<background>08-01.png,1,1,1,20,512,0
 [ParapaTemple&Map01&PlayerPage2&Page2Fix]<background>08-01.png,1,1,1,21,0,0
 [ParapaTemple&Map01&PlayerPage2]<background>08-01.png,1,1,1,20,512,0
 [ParapaTemple&Map01&PlayerPage1]<background>08-01.png,1,1,1,20,0,0
 [ParapaTemple&Map01&PlayerPage0]<background>08-01.png,1,1,1,20,0,0
-[ParapaTemple&Map01&PlayerPageFF]<background>08-01.png,1,1,1,20,0,0
 
 [ParapaTemple&Map02&PlayerPage3]<background>08-02.png,1,1,1,20,512,0
 [ParapaTemple&Map02&PlayerPage2&Page2Fix]<background>08-02.png,1,1,1,21,0,0
 [ParapaTemple&Map02&PlayerPage2]<background>08-02.png,1,1,1,20,512,0
 [ParapaTemple&Map02&PlayerPage1]<background>08-02.png,1,1,1,20,0,0
 [ParapaTemple&Map02&PlayerPage0]<background>08-02.png,1,1,1,20,0,0
-[ParapaTemple&Map02&PlayerPageFF]<background>08-02.png,1,1,1,20,0,0
 
 [ParapaTemple&Map03&PlayerPage3]<background>08-03.png,1,1,1,20,512,0
 [ParapaTemple&Map03&PlayerPage2&Page2Fix]<background>08-03.png,1,1,1,21,0,0
 [ParapaTemple&Map03&PlayerPage2]<background>08-03.png,1,1,1,20,512,0
 [ParapaTemple&Map03&PlayerPage1]<background>08-03.png,1,1,1,20,0,0
 [ParapaTemple&Map03&PlayerPage0]<background>08-03.png,1,1,1,20,0,0
-[ParapaTemple&Map03&PlayerPageFF]<background>08-03.png,1,1,1,20,0,0
 
 # 0.6 parallax = 306 offset
-[ParapaTemple&Map04&PlayerPage3]<background>08-04_background.png,1,0.6,1,10,306,0
-[ParapaTemple&Map04&PlayerPage2&Page2Fix]<background>08-04_background.png,1,0.6,1,10,0,0
-[ParapaTemple&Map04&PlayerPage2]<background>08-04_background.png,1,0.6,1,10,306,0
-[ParapaTemple&Map04&PlayerPage1]<background>08-04_background.png,1,0.6,1,10,0,0
-[ParapaTemple&Map04&PlayerPage0]<background>08-04_background.png,1,0.6,1,10,0,0
-[ParapaTemple&Map04&PlayerPageFF]<background>08-04_background.png,1,0.6,1,10,0,0
-[ParapaTemple&Map04&PlayerPage3]<background>08-04.png,1,1,1,20,512,0
-[ParapaTemple&Map04&PlayerPage2&Page2Fix]<background>08-04.png,1,1,1,20,0,0
-[ParapaTemple&Map04&PlayerPage2]<background>08-04.png,1,1,1,20,512,0
-[ParapaTemple&Map04&PlayerPage1]<background>08-04.png,1,1,1,20,0,0
-[ParapaTemple&Map04&PlayerPage0]<background>08-04.png,1,1,1,20,0,0
-[ParapaTemple&Map04&PlayerPageFF]<background>08-04.png,1,1,1,20,0,0
-[ParapaTemple&Map04&PlayerPage3]<background>08-04_objects.png,1,1,1,21,512,0
-[ParapaTemple&Map04&PlayerPage2&Page2Fix]<background>08-04_objects.png,1,1,1,21,0,0
-[ParapaTemple&Map04&PlayerPage2]<background>08-04_objects.png,1,1,1,21,512,0
-[ParapaTemple&Map04&PlayerPage1]<background>08-04_objects.png,1,1,1,21,0,0
-[ParapaTemple&Map04&PlayerPage0]<background>08-04_objects.png,1,1,1,21,0,0
-[ParapaTemple&Map04&PlayerPageFF]<background>08-04_objects.png,1,1,1,21,0,0
-[ParapaTemple&Map04&PlayerPage3&!FullRed&!FullBlue&!FullGreen]<background>08-04_foreground.png,1,1,1,30,512,0
-[ParapaTemple&Map04&PlayerPage2&Page2Fix&!6FFix&!FullRed&!FullBlue&!FullGreen]<background>08-04_foreground.png,1,1,1,30,0,0
-[ParapaTemple&Map04&PlayerPage2&!FullRed&!FullBlue&!FullGreen]<background>08-04_foreground.png,1,1,1,30,512,0
-[ParapaTemple&Map04&PlayerPage1&!FullRed&!FullBlue&!FullGreen]<background>08-04_foreground.png,1,1,1,30,0,0
-[ParapaTemple&Map04&PlayerPage0&!FullRed&!FullBlue&!FullGreen]<background>08-04_foreground.png,1,1,1,30,0,0
-[ParapaTemple&Map04&PlayerPageFF&!FullRed&!FullBlue&!FullGreen]<background>08-04_foreground.png,1,1,1,30,0,0
-# glichfix
-[ParapaTemple&Map04&PlayerPage2&Page2Fix&6FFix]<background>08-04_6Ffix.png,1,0,0,29,0,0
-[ParapaTemple&Map04&PlayerPage2&70Fix]<background>08-04_70fix.png,1,0,0,29,0,0
-# ^still glitches sometimes
+[ParapaTemple&Map04&PlayerPage0&!PlayerPage1&!PlayerPage2&!PlayerPage3]<background>Levels\Palace1\08-04_background.png,1,0.6,1,10,0,0
+[ParapaTemple&Map04&!PlayerPage0&PlayerPage1&!PlayerPage2&!PlayerPage3]<background>Levels\Palace1\08-04_background.png,1,0.6,1,10,0,0
+[ParapaTemple&Map04&!PlayerPage0&!PlayerPage1&PlayerPage2&!PlayerPage3]<background>Levels\Palace1\08-04_background.png,1,0.6,1,10,0,0
+[ParapaTemple&Map04&!PlayerPage0&!PlayerPage1&!PlayerPage2&PlayerPage3]<background>Levels\Palace1\08-04_background.png,1,0.6,1,10,306,0
+
+[ParapaTemple&Map04&PlayerPage0&!PlayerPage1&!PlayerPage2&!PlayerPage3]<background>Levels\Palace1\08-04.png,1,1,1,20,0,0
+[ParapaTemple&Map04&!PlayerPage0&PlayerPage1&!PlayerPage2&!PlayerPage3]<background>Levels\Palace1\08-04.png,1,1,1,20,0,0
+[ParapaTemple&Map04&!PlayerPage0&!PlayerPage1&PlayerPage2&!PlayerPage3]<background>Levels\Palace1\08-04.png,1,1,1,20,0,240
+[ParapaTemple&Map04&!PlayerPage0&!PlayerPage1&!PlayerPage2&PlayerPage3]<background>Levels\Palace1\08-04.png,1,1,1,20,512,0
+
+[ParapaTemple&Map04&PlayerPage0&!PlayerPage1&!PlayerPage2&!PlayerPage3]<background>Levels\Palace1\08-04_objects.png,1,1,1,21,0,0
+[ParapaTemple&Map04&!PlayerPage0&PlayerPage1&!PlayerPage2&!PlayerPage3]<background>Levels\Palace1\08-04_objects.png,1,1,1,21,0,0
+[ParapaTemple&Map04&!PlayerPage0&!PlayerPage1&PlayerPage2&!PlayerPage3]<background>Levels\Palace1\08-04_objects.png,1,1,1,21,0,240
+[ParapaTemple&Map04&!PlayerPage0&!PlayerPage1&!PlayerPage2&PlayerPage3]<background>Levels\Palace1\08-04_objects.png,1,1,1,21,512,0
+
+[ParapaTemple&Map04&PlayerPage0&!PlayerPage1&!PlayerPage2&!PlayerPage3&!FullRed&!FullGreen&!FullBlue]<background>Levels\Palace1\08-04_foreground.png,1,1,1,20,0,0
+[ParapaTemple&Map04&!PlayerPage0&PlayerPage1&!PlayerPage2&!PlayerPage3&!FullRed&!FullGreen&!FullBlue]<background>Levels\Palace1\08-04_foreground.png,1,1,1,20,0,0
+[ParapaTemple&Map04&!PlayerPage0&!PlayerPage1&PlayerPage2&!PlayerPage3&!FullRed&!FullGreen&!FullBlue]<background>Levels\Palace1\08-04_foreground.png,1,1,1,20,0,240
+[ParapaTemple&Map04&!PlayerPage0&!PlayerPage1&!PlayerPage2&PlayerPage3&!FullRed&!FullGreen&!FullBlue]<background>Levels\Palace1\08-04_foreground.png,1,1,1,20,512,0
 
 
 
@@ -31810,35 +31767,30 @@
 [ParapaTemple&Map05&PlayerPage2]<background>08-05.png,1,1,1,20,512,0
 [ParapaTemple&Map05&PlayerPage1]<background>08-05.png,1,1,1,20,0,0
 [ParapaTemple&Map05&PlayerPage0]<background>08-05.png,1,1,1,20,0,0
-[ParapaTemple&Map05&PlayerPageFF]<background>08-05.png,1,1,1,20,0,0
 
 [ParapaTemple&Map06&PlayerPage3]<background>08-06.png,1,1,1,20,512,0
 [ParapaTemple&Map06&PlayerPage2&Page2Fix]<background>08-06.png,1,1,1,21,0,0
 [ParapaTemple&Map06&PlayerPage2]<background>08-06.png,1,1,1,20,512,0
 [ParapaTemple&Map06&PlayerPage1]<background>08-06.png,1,1,1,20,0,0
 [ParapaTemple&Map06&PlayerPage0]<background>08-06.png,1,1,1,20,0,0
-[ParapaTemple&Map06&PlayerPageFF]<background>08-06.png,1,1,1,20,0,0
 
 [ParapaTemple&Map07&PlayerPage3]<background>08-07.png,1,1,1,20,512,0
 [ParapaTemple&Map07&PlayerPage2&Page2Fix]<background>08-07.png,1,1,1,21,0,0
 [ParapaTemple&Map07&PlayerPage2]<background>08-07.png,1,1,1,20,512,0
 [ParapaTemple&Map07&PlayerPage1]<background>08-07.png,1,1,1,20,0,0
 [ParapaTemple&Map07&PlayerPage0]<background>08-07.png,1,1,1,20,0,0
-[ParapaTemple&Map07&PlayerPageFF]<background>08-07.png,1,1,1,20,0,0
 
 [ParapaTemple&Map08&PlayerPage3]<background>08-08.png,1,1,1,20,512,0
 [ParapaTemple&Map08&PlayerPage2&Page2Fix]<background>08-08.png,1,1,1,21,0,0
 [ParapaTemple&Map08&PlayerPage2]<background>08-08.png,1,1,1,20,512,0
 [ParapaTemple&Map08&PlayerPage1]<background>08-08.png,1,1,1,20,0,0
 [ParapaTemple&Map08&PlayerPage0]<background>08-08.png,1,1,1,20,0,0
-[ParapaTemple&Map08&PlayerPageFF]<background>08-08.png,1,1,1,20,0,0
 
 [ParapaTemple&Map09&PlayerPage3]<background>08-09.png,1,1,1,20,512,0
 [ParapaTemple&Map09&PlayerPage2&Page2Fix]<background>08-09.png,1,1,1,21,0,0
 [ParapaTemple&Map09&PlayerPage2]<background>08-09.png,1,1,1,20,512,0
 [ParapaTemple&Map09&PlayerPage1]<background>08-09.png,1,1,1,20,0,0
 [ParapaTemple&Map09&PlayerPage0]<background>08-09.png,1,1,1,20,0,0
-[ParapaTemple&Map09&PlayerPageFF]<background>08-09.png,1,1,1,20,0,0
 
 #LavaTest
 [ParapaTemple&Map09&PlayerPage3&5fpsAnimFrame00]<background>Liquids\08-09_lava-frame00.png,1,1,1,28,512,0
@@ -31846,35 +31798,30 @@
 [ParapaTemple&Map09&PlayerPage2&5fpsAnimFrame00]<background>Liquids\08-09_lava-frame00.png,1,1,1,28,512,0
 [ParapaTemple&Map09&PlayerPage1&5fpsAnimFrame00]<background>Liquids\08-09_lava-frame00.png,1,1,1,28,0,0
 [ParapaTemple&Map09&PlayerPage0&5fpsAnimFrame00]<background>Liquids\08-09_lava-frame00.png,1,1,1,28,0,0
-[ParapaTemple&Map09&PlayerPageFF&5fpsAnimFrame00]<background>Liquids\08-09_lava-frame00.png,1,1,1,28,0,0
 
 [ParapaTemple&Map09&PlayerPage3&5fpsAnimFrame01]<background>Liquids\08-09_lava-frame01.png,1,1,1,28,512,0
 [ParapaTemple&Map09&PlayerPage2&Page2Fix&5fpsAnimFrame01]<background>Liquids\08-09_lava-frame01.png,1,1,1,29,0,0
 [ParapaTemple&Map09&PlayerPage2&5fpsAnimFrame01]<background>Liquids\08-09_lava-frame01.png,1,1,1,28,512,0
 [ParapaTemple&Map09&PlayerPage1&5fpsAnimFrame01]<background>Liquids\08-09_lava-frame01.png,1,1,1,28,0,0
 [ParapaTemple&Map09&PlayerPage0&5fpsAnimFrame01]<background>Liquids\08-09_lava-frame01.png,1,1,1,28,0,0
-[ParapaTemple&Map09&PlayerPageFF&5fpsAnimFrame01]<background>Liquids\08-09_lava-frame01.png,1,1,1,28,0,0
 
 [ParapaTemple&Map09&PlayerPage3&5fpsAnimFrame02]<background>Liquids\08-09_lava-frame02.png,1,1,1,28,512,0
 [ParapaTemple&Map09&PlayerPage2&Page2Fix&5fpsAnimFrame02]<background>Liquids\08-09_lava-frame02.png,1,1,1,29,0,0
 [ParapaTemple&Map09&PlayerPage2&5fpsAnimFrame02]<background>Liquids\08-09_lava-frame02.png,1,1,1,28,512,0
 [ParapaTemple&Map09&PlayerPage1&5fpsAnimFrame02]<background>Liquids\08-09_lava-frame02.png,1,1,1,28,0,0
 [ParapaTemple&Map09&PlayerPage0&5fpsAnimFrame02]<background>Liquids\08-09_lava-frame02.png,1,1,1,28,0,0
-[ParapaTemple&Map09&PlayerPageFF&5fpsAnimFrame02]<background>Liquids\08-09_lava-frame02.png,1,1,1,28,0,0
 
 [ParapaTemple&Map09&PlayerPage3&5fpsAnimFrame03]<background>Liquids\08-09_lava-frame03.png,1,1,1,28,512,0
 [ParapaTemple&Map09&PlayerPage2&Page2Fix&5fpsAnimFrame03]<background>Liquids\08-09_lava-frame03.png,1,1,1,29,0,0
 [ParapaTemple&Map09&PlayerPage2&5fpsAnimFrame03]<background>Liquids\08-09_lava-frame03.png,1,1,1,28,512,0
 [ParapaTemple&Map09&PlayerPage1&5fpsAnimFrame03]<background>Liquids\08-09_lava-frame03.png,1,1,1,28,0,0
 [ParapaTemple&Map09&PlayerPage0&5fpsAnimFrame03]<background>Liquids\08-09_lava-frame03.png,1,1,1,28,0,0
-[ParapaTemple&Map09&PlayerPageFF&5fpsAnimFrame03]<background>Liquids\08-09_lava-frame03.png,1,1,1,28,0,0
 
 [ParapaTemple&Map09&PlayerPage3&5fpsAnimFrame04]<background>Liquids\08-09_lava-frame04.png,1,1,1,28,512,0
 [ParapaTemple&Map09&PlayerPage2&Page2Fix&5fpsAnimFrame04]<background>Liquids\08-09_lava-frame04.png,1,1,1,29,0,0
 [ParapaTemple&Map09&PlayerPage2&5fpsAnimFrame04]<background>Liquids\08-09_lava-frame04.png,1,1,1,28,512,0
 [ParapaTemple&Map09&PlayerPage1&5fpsAnimFrame04]<background>Liquids\08-09_lava-frame04.png,1,1,1,28,0,0
 [ParapaTemple&Map09&PlayerPage0&5fpsAnimFrame04]<background>Liquids\08-09_lava-frame04.png,1,1,1,28,0,0
-[ParapaTemple&Map09&PlayerPageFF&5fpsAnimFrame04]<background>Liquids\08-09_lava-frame04.png,1,1,1,28,0,0
 #EndLavaTest
 
 
@@ -31883,28 +31830,24 @@
 [ParapaTemple&Map0A&PlayerPage2]<background>08-0A.png,1,1,1,20,512,0
 [ParapaTemple&Map0A&PlayerPage1]<background>08-0A.png,1,1,1,20,0,0
 [ParapaTemple&Map0A&PlayerPage0]<background>08-0A.png,1,1,1,20,0,0
-[ParapaTemple&Map0A&PlayerPageFF]<background>08-0A.png,1,1,1,20,0,0
 
 [ParapaTemple&Map0B&PlayerPage3]<background>08-0B.png,1,1,1,20,512,0
 [ParapaTemple&Map0B&PlayerPage2&Page2Fix]<background>08-0B.png,1,1,1,21,0,0
 [ParapaTemple&Map0B&PlayerPage2]<background>08-0B.png,1,1,1,20,512,0
 [ParapaTemple&Map0B&PlayerPage1]<background>08-0B.png,1,1,1,20,0,0
 [ParapaTemple&Map0B&PlayerPage0]<background>08-0B.png,1,1,1,20,0,0
-[ParapaTemple&Map0B&PlayerPageFF]<background>08-0B.png,1,1,1,20,0,0
 
 [ParapaTemple&Map0C&PlayerPage3]<background>08-0C.png,1,1,1,20,512,0
 [ParapaTemple&Map0C&PlayerPage2&Page2Fix]<background>08-0C.png,1,1,1,21,0,0
 [ParapaTemple&Map0C&PlayerPage2]<background>08-0C.png,1,1,1,20,512,0
 [ParapaTemple&Map0C&PlayerPage1]<background>08-0C.png,1,1,1,20,0,0
 [ParapaTemple&Map0C&PlayerPage0]<background>08-0C.png,1,1,1,20,0,0
-[ParapaTemple&Map0C&PlayerPageFF]<background>08-0C.png,1,1,1,20,0,0
 
 [ParapaTemple&Map0D&PlayerPage3]<background>08-0D.png,1,1,1,20,512,0
 [ParapaTemple&Map0D&PlayerPage2&Page2Fix]<background>08-0D.png,1,1,1,21,0,0
 [ParapaTemple&Map0D&PlayerPage2]<background>08-0D.png,1,1,1,20,512,0
 [ParapaTemple&Map0D&PlayerPage1]<background>08-0D.png,1,1,1,20,0,0
 [ParapaTemple&Map0D&PlayerPage0]<background>08-0D.png,1,1,1,20,0,0
-[ParapaTemple&Map0D&PlayerPageFF]<background>08-0D.png,1,1,1,20,0,0
 
 #BreakAwayBridge
 [ParapaTemple]<tile>16,992,0F001030,0,0,1,N
