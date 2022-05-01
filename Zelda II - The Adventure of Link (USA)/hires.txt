@@ -126,6 +126,12 @@
 <condition>PlayerWalk1,memoryCheckConstant,80,==,1
 <condition>PlayerWalk2,memoryCheckConstant,80,==,2
 
+#WalkFullSprite
+<condition>LinkWalkFrame3a,spriteNearby,8,24,213,FF18362A
+<condition>LinkWalkFrame3b,spriteNearby,8,16,213,FF18362A
+<condition>LinkWalkFrame3c,spriteNearby,0,24,213,FF18362A
+<condition>LinkWalkFrame3d,spriteNearby,0,16,213,FF18362A
+
 #FieldType
 <condition>TownField,memoryCheckConstant,563,==,0
 <condition>CaveField,memoryCheckConstant,563,==,1
@@ -33635,10 +33641,10 @@ Link Sprite
 [!hmirror&PlayerStopped&4fpsAnimFrame03]<tile>7,207,FF18362A,336,24,1,N
 
 #Walking
-[!hmirror&!PlayerInAir]<tile>7,200,FF18362A,0,0,1,N
-[!hmirror&!PlayerInAir]<tile>7,201,FF18362A,0,8,1,N
-[!hmirror&!PlayerInAir]<tile>7,202,FF18362A,8,0,1,N
-[!hmirror&!PlayerInAir]<tile>7,203,FF18362A,8,8,1,N
+[!hmirror&!PlayerInAir&!LinkWalkFrame3a]<tile>7,200,FF18362A,0,0,1,N
+[!hmirror&!PlayerInAir&!LinkWalkFrame3b]<tile>7,201,FF18362A,0,8,1,N
+[!hmirror&!PlayerInAir&!LinkWalkFrame3c]<tile>7,202,FF18362A,8,0,1,N
+[!hmirror&!PlayerInAir&!LinkWalkFrame3d]<tile>7,203,FF18362A,8,8,1,N
 [!hmirror&!PlayerInAir]<tile>7,204,FF18362A,0,16,1,N
 [!hmirror&!PlayerInAir]<tile>7,205,FF18362A,0,24,1,N
 [!hmirror&!PlayerInAir]<tile>7,206,FF18362A,8,16,1,N
@@ -33651,6 +33657,13 @@ Link Sprite
 [!hmirror&!PlayerInAir]<tile>7,20D,FF18362A,16,24,1,N
 [!hmirror&!PlayerInAir]<tile>7,20E,FF18362A,24,16,1,N
 [!hmirror&!PlayerInAir]<tile>7,20F,FF18362A,24,24,1,N
+
+#WalkFullSprite
+[!hmirror&!PlayerInAir&LinkWalkFrame3a]<tile>7,200,FF18362A,32,0,1,N
+[!hmirror&!PlayerInAir&LinkWalkFrame3b]<tile>7,201,FF18362A,32,8,1,N
+[!hmirror&!PlayerInAir&LinkWalkFrame3c]<tile>7,202,FF18362A,40,0,1,N
+[!hmirror&!PlayerInAir&LinkWalkFrame3d]<tile>7,203,FF18362A,40,8,1,N
+
 [!hmirror&!PlayerInAir]<tile>7,210,FF18362A,32,16,1,N
 [!hmirror&!PlayerInAir]<tile>7,211,FF18362A,32,24,1,N
 [!hmirror&!PlayerInAir]<tile>7,212,FF18362A,40,16,1,N
@@ -33845,10 +33858,10 @@ Link Sprite
 [!LifeScreen&hmirror&PlayerStopped&4fpsAnimFrame03]<tile>7,207,FF18362A,336,56,1,N
 
 #Walking
-[hmirror&!PlayerInAir]<tile>7,200,FF18362A,0,32,1,N
-[hmirror&!PlayerInAir]<tile>7,201,FF18362A,0,40,1,N
-[hmirror&!PlayerInAir]<tile>7,202,FF18362A,8,32,1,N
-[hmirror&!PlayerInAir]<tile>7,203,FF18362A,8,40,1,N
+[hmirror&!PlayerInAir&!LinkWalkFrame3a]<tile>7,200,FF18362A,0,32,1,N
+[hmirror&!PlayerInAir&!LinkWalkFrame3b]<tile>7,201,FF18362A,0,40,1,N
+[hmirror&!PlayerInAir&!LinkWalkFrame3c]<tile>7,202,FF18362A,8,32,1,N
+[hmirror&!PlayerInAir&!LinkWalkFrame3d]<tile>7,203,FF18362A,8,40,1,N
 [hmirror&!PlayerInAir]<tile>7,204,FF18362A,0,48,1,N
 [hmirror&!PlayerInAir]<tile>7,205,FF18362A,0,56,1,N
 [hmirror&!PlayerInAir]<tile>7,206,FF18362A,8,48,1,N
@@ -33861,6 +33874,13 @@ Link Sprite
 [hmirror&!PlayerInAir]<tile>7,20D,FF18362A,16,56,1,N
 [hmirror&!PlayerInAir]<tile>7,20E,FF18362A,24,48,1,N
 [hmirror&!PlayerInAir]<tile>7,20F,FF18362A,24,56,1,N
+
+#WalkFullSprite
+[hmirror&!PlayerInAir&LinkWalkFrame3a]<tile>7,200,FF18362A,32,32,1,N
+[hmirror&!PlayerInAir&LinkWalkFrame3b]<tile>7,201,FF18362A,32,40,1,N
+[hmirror&!PlayerInAir&LinkWalkFrame3c]<tile>7,202,FF18362A,40,32,1,N
+[hmirror&!PlayerInAir&LinkWalkFrame3d]<tile>7,203,FF18362A,40,40,1,N
+
 [hmirror&!PlayerInAir]<tile>7,210,FF18362A,32,48,1,N
 [hmirror&!PlayerInAir]<tile>7,211,FF18362A,32,56,1,N
 [hmirror&!PlayerInAir]<tile>7,212,FF18362A,40,48,1,N
