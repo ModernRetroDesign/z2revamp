@@ -1898,8 +1898,8 @@
 [FullBlue]<background>Blank.png,1,0,0,39
 [FullGreen]<background>Blank.png,1,0,0,39
 [LifeScreen]<background>Blank.png,1,0,0,39
-[GameOver]<background>Blank.png,1,0,0,39
-[ContinueOrSave]<background>Blank.png,1,0,0,39
+[GameOver]<background>GameOver.png,1,0,0,39
+[ContinueOrSave]<background>ContinueOrSave.png,1,0,0,39
 
 #NeedToReorganiseLoadingLayer
 [Loading0&!TitleScreen&!FileSelect&!FullRed&!FullBlue&!FullGreen&!LifeScreen&!GameOver&!ContinueOrSave]<background>Loading2.png,1,0,0,39
