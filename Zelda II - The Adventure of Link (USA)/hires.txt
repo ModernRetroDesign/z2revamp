@@ -126,11 +126,14 @@
 <condition>PlayerWalk1,memoryCheckConstant,80,==,1
 <condition>PlayerWalk2,memoryCheckConstant,80,==,2
 
+
 #WalkFullSprite
+#{
 <condition>LinkWalkFrame3a,spriteNearby,8,24,213,FF18362A
 <condition>LinkWalkFrame3b,spriteNearby,8,16,213,FF18362A
 <condition>LinkWalkFrame3c,spriteNearby,0,24,213,FF18362A
 <condition>LinkWalkFrame3d,spriteNearby,0,16,213,FF18362A
+#}
 
 #FieldType
 <condition>TownField,memoryCheckConstant,563,==,0
@@ -1903,7 +1906,7 @@
 [FullRed]<background>Blank.png,1,0,0,39
 [FullBlue]<background>Blank.png,1,0,0,39
 [FullGreen]<background>Blank.png,1,0,0,39
-[LifeScreen]<background>Blank.png,1,0,0,39
+[LifeScreen]<background>LifeScreen.png,1,0,0,39
 [GameOver]<background>GameOver.png,1,0,0,39
 [ContinueOrSave]<background>ContinueOrSave.png,1,0,0,39
 
