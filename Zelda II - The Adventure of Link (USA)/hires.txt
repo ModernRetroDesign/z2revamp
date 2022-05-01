@@ -1910,6 +1910,19 @@
 [GameOver]<background>GameOver.png,1,0,0,39
 [ContinueOrSave]<background>ContinueOrSave.png,1,0,0,39
 
+#ClearsForgroundOnDeath
+[FullRed]<background>Blank.png,1,0,0,30
+[FullBlue]<background>Blank.png,1,0,0,30
+[FullGreen]<background>Blank.png,1,0,0,30
+
+#ClearsBackgroundsForLifeScreen
+[LifeScreen]<background>Blank.png,1,0,0,10
+[LifeScreen]<background>Blank.png,1,0,0,11
+[LifeScreen]<background>Blank.png,1,0,0,12
+[LifeScreen]<background>Blank.png,1,0,0,13
+[LifeScreen]<background>Blank.png,1,0,0,20
+
+
 #NeedToReorganiseLoadingLayer
 [Loading0&!TitleScreen&!FileSelect&!FullRed&!FullBlue&!FullGreen&!LifeScreen&!GameOver&!ContinueOrSave]<background>Loading2.png,1,0,0,39
 [Loading1&!TitleScreen&!FullRed&!FullBlue&!FullGreen&!LifeScreen&!GameOver&!ContinueOrSave]<background>Loading1.png,1,0,0,39
