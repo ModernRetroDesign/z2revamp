@@ -38599,7 +38599,7 @@ Link Sprite
 
 #TownsFolk
 #{
-OldMan
+#OldMan
 #{
 <condition>OldManTalkFrame2a,spriteNearby,8,-8,6D3,FF162730
 <condition>OldManTalkFrame2b,spriteNearby,8,-16,6D3,FF162730
@@ -39085,11 +39085,9 @@ OldMan
 [hmirror&HUD&Town&Map2B&OldManTalkFrame2b]<tile>10,6D5,FF162730,32,504,1,N
 [hmirror&HUD&Town&Map2B&OldManTalkFrame2c]<tile>10,6D6,FF162730,40,496,1,N
 [hmirror&HUD&Town&Map2B&OldManTalkFrame2d]<tile>10,6D7,FF162730,40,504,1,N
-
-
 #}
 
-RedKid
+#RedKid
 #{
 <condition>RedKidWalkFrame1a,spriteNearby,0,24,6B1,FF0F1636
 <condition>RedKidWalkFrame1b,spriteNearby,0,16,6B1,FF0F1636
@@ -39147,7 +39145,7 @@ RedKid
 [hmirror&HUD&Town&Map0F]<tile>10,6BB,FF0F1636,56,376,1,N
 #}
 
-PurpleKid
+#PurpleKid
 #{
 <condition>PurpleKidWalkFrame1a,spriteNearby,0,24,6B1,FF0F1336
 <condition>PurpleKidWalkFrame1b,spriteNearby,0,16,6B1,FF0F1336
@@ -39157,6 +39155,7 @@ PurpleKid
 <condition>PurpleKidWalkFrame2b,spriteNearby,0,16,6BD,FF0F1336
 <condition>PurpleKidWalkFrame2c,spriteNearby,-8,24,6BD,FF0F1336
 <condition>PurpleKidWalkFrame2d,spriteNearby,-8,16,6BD,FF0F1336
+
 #Mido
 #FacingLeft
 #Frame1
@@ -39245,7 +39244,7 @@ PurpleKid
 [hmirror&HUD&Town&Map0D]<tile>10,6BF,FF0F1336,104,312,1,N
 #}
 
-ThinRedMan
+#ThinRedMan
 #{
 <condition>ThinRedManWalkFrame2a,spriteNearby,0,24,6C9,FF0F1636
 <condition>ThinRedManWalkFrame2b,spriteNearby,0,16,6C9,FF0F1636
@@ -39319,7 +39318,7 @@ ThinRedMan
 [hmirror&HUD&Town&Map08]<tile>10,6C7,FF0F1636,120,184,1,N
 #}
 
-ThinPurpleMan
+#ThinPurpleMan
 #{
 <condition>ThinPurpleManWalkFrame2a,spriteNearby,0,24,6C9,FF0F1336
 <condition>ThinPurpleManWalkFrame2b,spriteNearby,0,16,6C9,FF0F1336
@@ -39416,7 +39415,7 @@ ThinPurpleMan
 [hmirror&HUD&Town&Map20]<tile>10,6C7,FF0F1336,152,312,1,N
 #}
 
-YoungRedWoman
+#YoungRedWoman
 #{
 <condition>YoungRedWomanWalkFrame1a,spriteNearby,0,24,6E1,FF0F1636
 <condition>YoungRedWomanWalkFrame1b,spriteNearby,0,16,6E1,FF0F1636
@@ -39434,6 +39433,7 @@ YoungRedWoman
 <condition>YoungRedWomanWalkFrame2f,spriteNearby,8,-16,6DB,FF0F1636
 <condition>YoungRedWomanWalkFrame2g,spriteNearby,0,-8,6DB,FF0F1636
 <condition>YoungRedWomanWalkFrame2h,spriteNearby,0,-16,6DB,FF0F1636
+
 #RauruWest
 #FacingLeft
 #Frame1
@@ -39865,7 +39865,7 @@ YoungRedWoman
 [hmirror&HUD&Town&Map13&YoungRedWomanWalkFrame2h]<tile>10,6E7,FF0F1636,200,440,1,N
 #}
 
-PotHeadRedWoman
+#PotHeadRedWoman
 #{
 <condition>PotHeadRedWomanWalkFrame1a,spriteNearby,0,24,6E1,FF0F1636
 <condition>PotHeadRedWomanWalkFrame1b,spriteNearby,0,16,6E1,FF0F1636
@@ -40401,7 +40401,7 @@ PotHeadRedWoman
 [hmirror&HUD&Town&Map13&PotHeadRedWomanWalkFrame2h]<tile>10,6E7,FF0F1636,232,440,1,N
 #}
 
-YoungPurpleWoman
+#YoungPurpleWoman
 #{
 <condition>YoungPurpleWomanWalkFrame1a,spriteNearby,0,24,6E1,FF0F1336
 <condition>YoungPurpleWomanWalkFrame1b,spriteNearby,0,16,6E1,FF0F1336
@@ -41152,7 +41152,7 @@ YoungPurpleWoman
 [hmirror&HUD&Town&Map13&YoungPurpleWomanWalkFrame2h]<tile>10,6E7,FF0F1336,264,440,1,N
 #}
 
-PotHeadPurpleWoman
+#PotHeadPurpleWoman
 #{
 <condition>PotHeadPurpleWomanWalkFrame1a,spriteNearby,0,24,6E1,FF0F1336
 <condition>PotHeadPurpleWomanWalkFrame1b,spriteNearby,0,16,6E1,FF0F1336
@@ -41419,6 +41419,7 @@ PotHeadPurpleWoman
 <condition>LargeRedManWalkFrame2b,spriteNearby,0,16,6F1,FF0F1636
 <condition>LargeRedManWalkFrame2c,spriteNearby,-8,24,6F1,FF0F1636
 <condition>LargeRedManWalkFrame2d,spriteNearby,-8,16,6F1,FF0F1636
+
 #Bagu
 #FacingLeft
 #Frame2
@@ -42054,6 +42055,7 @@ PotHeadPurpleWoman
 <condition>OldOrangeWomanWalkFrame2b,spriteNearby,0,16,6FD,FF162730
 <condition>OldOrangeWomanWalkFrame2c,spriteNearby,-8,24,6FD,FF162730
 <condition>OldOrangeWomanWalkFrame2d,spriteNearby,-8,16,6FD,FF162730
+
 #RutoEast
 #FacingLeft
 #Frame1
@@ -42319,6 +42321,7 @@ PotHeadPurpleWoman
 <condition>OldRedWomanWalkFrame2b,spriteNearby,0,16,6FD,FF0F1636
 <condition>OldRedWomanWalkFrame2c,spriteNearby,-8,24,6FD,FF0F1636
 <condition>OldRedWomanWalkFrame2d,spriteNearby,-8,16,6FD,FF0F1636
+
 #RauraWest
 #FacingLeft
 #Frame1
@@ -43057,6 +43060,7 @@ PotHeadPurpleWoman
 <condition>OldPurpleWomanWalkFrame2b,spriteNearby,0,16,6FD,FF0F1336
 <condition>OldPurpleWomanWalkFrame2c,spriteNearby,-8,24,6FD,FF0F1336
 <condition>OldPurpleWomanWalkFrame2d,spriteNearby,-8,16,6FD,FF0F1336
+
 #MidoWest
 #FacingLeft
 #Frame1
