@@ -2,15 +2,15 @@
 
 Coding: Giric
 
-Art: HaddianKey
+Main Art: HaddianKey
 
 Tools: Lilo-san
 
-Additional work by: Evan.F, Aclectico, Szadi art., & Max Deacon VR
+Additional work by: Evan.F, Aclectico, Szadi art., Max Deacon VR, Pepeztyle & ChaosMiles07
 
 Discord: https://discord.gg/feFCZMUQQm
 
-# Requres Mesen 0.9.9-211221 or latest!
+# Requres Mesen 0.9.9-220614 or latest!
 
 https://github.com/mkwong98/Mesen/releases
 
