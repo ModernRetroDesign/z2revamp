@@ -6,7 +6,7 @@ Main Art: HaddianKey
 
 Tools: Lilo-san
 
-Additional work by: Evan.F, Aclectico, Szadi art., Max Deacon VR, Pepeztyle & ChaosMiles07
+Additional work by: Evan.F, Aclectico, Szadi art., Max Deacon VR, Pepeztyle, ChaosMiles07, & Jmanvelez
 
 Discord: https://discord.gg/feFCZMUQQm
 
