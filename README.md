@@ -20,9 +20,9 @@ Extract the 'Zelda II - The Adventure of Link (USA)' folder into the HdPacks fol
 
 A 200% overclock is recommended but not necessary. Set 'Additional scanlines before NMI' to 262. This option is located in the Emulation settings under Overclock.
 
-# To-Do (in no particular order)
+A 32 pixel overscan is required to be applied to the top otherwise you will have a giant black bar on the upper part of the screen!
 
-Finish experience bar percentages to 9000 (currently stops at 800)
+# To-Do (in no particular order)
 
 Refine dialog boxes to reveal text as per orginal game
 
