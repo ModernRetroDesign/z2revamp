@@ -10,7 +10,7 @@ Additional work by: Evan.F, Aclectico, Szadi art., Max Deacon VR, Pepeztyle, Cha
 
 Discord: https://discord.gg/feFCZMUQQm
 
-# Requres Mesen 0.9.9-220614 or latest!
+# Requres Mesen 0.9.9-220721 or latest!
 
 https://github.com/mkwong98/Mesen/releases
 
